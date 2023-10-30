@@ -1,0 +1,91 @@
+
+
+
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+#Get the itc_connect_id
+#fastlane produce
+
+default_platform(:ios)
+platform :ios do
+ENV["FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD"] = ENV['APPLICATION_SPECIFIC_PASSWORD']
+
+
+ desc 'Generate screenshots for app store'
+  lane :generateScreenshots do
+    capture_screenshots(
+      reinstall_app: true
+    )
+  end
+
+
+
+  desc 'Upload metadata (screenshots) to app store'
+  lane :uploadScreenshots do
+    deliver(
+    force: true,
+    skip_metadata: true,
+    skip_screenshots: false,
+    skip_binary_upload: true,
+    username: "example@email.com"
+  )
+  end
+
+
+
+    desc "Push a new beta build to TestFlight"
+   lane :uploadBeta do
+    get_certificates           # invokes cert
+    get_provisioning_profile   # invokes sigh
+    build_app(workspace: "Runrun.xcworkspace", scheme: ENV['SCHEME'] , 
+    clean: true,
+    export_method: "app-store",
+    export_options: {
+        provisioningProfiles: {
+          CredentialsManager::AppfileConfig.try_fetch_value(:app_identifier) => CredentialsManager::AppfileConfig.try_fetch_value(:app_identifier) + " AppStore" # Value of this parameter is the name of the Provisioning Profile. By default, it will be "{bundleId} AppStore"
+      }
+    },
+    build_path: "fastlane/builds",
+    output_directory: "fastlane/builds")
+    upload_to_testflight
+  end
+
+
+  desc "Create app ipa and upload to TestFlight"
+  lane :beta do
+  
+    if ENV['SCHEME'] != nil
+        uploadBeta
+    else
+      execute_for_all_envs{ beta }
+    end
+
+  end
+
+
+
+  def execute_for_all_envs
+    # 1
+    schemeList = Dir.glob(".env.*")
+    # 2
+    schemeList.each do |file|
+      # 3
+      Dotenv.overload(file)
+      # 4
+      yield
+    end
+  end
+end

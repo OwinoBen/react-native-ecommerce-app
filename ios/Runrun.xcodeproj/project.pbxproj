@@ -1,0 +1,1493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		627E06F729D0064BD535A81F /* libPods-available_pods-Patazone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBD678387D4E3BEA0D35A3F /* libPods-available_pods-Patazone.a */; };
+		846CB42C2A657ED8008445DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		846CB42D2A657ED8008445DB /* Royo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4679626A7F27500D378D5 /* Royo.swift */; };
+		846CB42E2A657ED8008445DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		846CB4312A657ED8008445DB /* Eina02-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8455CA3826DFBC2200C27F72 /* Eina02-Regular.ttf */; };
+		846CB4322A657ED8008445DB /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846DA78C2681E47000CC5BA2 /* SFProDisplay-Regular.ttf */; };
+		846CB4332A657ED8008445DB /* Futura-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846DA7902681E47100CC5BA2 /* Futura-Medium.ttf */; };
+		846CB4352A657ED8008445DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		846CB4362A657ED8008445DB /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 844FDD1E2673989300C16835 /* CircularStd-Book.otf */; };
+		846CB4382A657ED8008445DB /* Metropolis-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8496BC0726F1B862001AAB4C /* Metropolis-Bold.otf */; };
+		846CB4392A657ED8008445DB /* Futura Hv BT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846DA78E2681E47100CC5BA2 /* Futura Hv BT.ttf */; };
+		846CB43A2A657ED8008445DB /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846DA78D2681E47000CC5BA2 /* SFProText-Regular.ttf */; };
+		846CB43B2A657ED8008445DB /* SFProText-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846DA78F2681E47100CC5BA2 /* SFProText-SemiBold.ttf */; };
+		846CB43C2A657ED8008445DB /* SFProText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846DA7942681E47100CC5BA2 /* SFProText-Medium.ttf */; };
+		846CB43E2A657ED8008445DB /* notification.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84D1CDDD2703529C00C05E36 /* notification.wav */; };
+		846CB43F2A657ED8008445DB /* Plists in Resources */ = {isa = PBXBuildFile; fileRef = 84DD36D82653D9EF00E2097D /* Plists */; };
+		846CB4402A657ED8008445DB /* Futura-Normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846DA7922681E47100CC5BA2 /* Futura-Normal.ttf */; };
+		846CB4412A657ED8008445DB /* Eina02-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8455CA3626DFBC2200C27F72 /* Eina02-Bold.ttf */; };
+		846CB4422A657ED8008445DB /* Futura-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846DA7932681E47100CC5BA2 /* Futura-Book.ttf */; };
+		846CB4432A657ED8008445DB /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 844FDD1D2673989300C16835 /* CircularStd-Medium.otf */; };
+		846CB4452A657ED8008445DB /* Metropolis-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8496BC0626F1B861001AAB4C /* Metropolis-SemiBold.otf */; };
+		846CB4462A657ED8008445DB /* FuturaBT-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846DA78B2681E47000CC5BA2 /* FuturaBT-Heavy.ttf */; };
+		846CB4472A657ED8008445DB /* CircularStd-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844FDD1C2673989300C16835 /* CircularStd-Bold.ttf */; };
+		846CB4482A657ED8008445DB /* Metropolis-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8496BC0526F1B860001AAB4C /* Metropolis-Regular.otf */; };
+		846CB4492A657ED8008445DB /* SFProText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846DA7912681E47100CC5BA2 /* SFProText-Bold.ttf */; };
+		846CB44A2A657ED8008445DB /* Eina02-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8455CA3726DFBC2200C27F72 /* Eina02-SemiBold.ttf */; };
+		846CB4542A657F36008445DB /* Patazone(Development).xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 846CB4532A657F36008445DB /* Patazone(Development).xcconfig */; };
+		846CB4562A657F51008445DB /* Patazone(Production).xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 846CB4552A657F51008445DB /* Patazone(Production).xcconfig */; };
+		846CB4582A657F66008445DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846CB4572A657F65008445DB /* Images.xcassets */; };
+		846CB45A2A658273008445DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 846CB4592A658271008445DB /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0020370627BF956100D99F30 /* Onscart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Onscart.entitlements; sourceTree = "<group>"; };
+		0020370727BF956100D99F30 /* Onscart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Onscart.entitlements; sourceTree = "<group>"; };
+		00301AEF27BE10340088151F /* ONTHEGO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ONTHEGO.entitlements; sourceTree = "<group>"; };
+		0038C08F27BA934F00B7CF17 /* Sabroson.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sabroson.entitlements; sourceTree = "<group>"; };
+		0079481527BF69E000F4ABF5 /* BeakMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeakMe.entitlements; sourceTree = "<group>"; };
+		007E4A8027BA663000B6BD5C /* AmbuTap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AmbuTap.entitlements; sourceTree = "<group>"; };
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00BA22CB27BA9CBB007541D0 /* SwiffyLLC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiffyLLC.entitlements; sourceTree = "<group>"; };
+		00DC50E227B7612F004AE735 /* MylaGlobal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MylaGlobal.entitlements; sourceTree = "<group>"; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* RunrunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunrunTests.m; sourceTree = "<group>"; };
+		043EC3597723B1216D884613 /* Pods-available_pods-Patazone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Patazone.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone.release.xcconfig"; sourceTree = "<group>"; };
+		1008CD522817D921007C5363 /* MarjMarketplace.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MarjMarketplace.entitlements; sourceTree = "<group>"; };
+		1013AD6B28112EE300E0582E /* Muvpod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Muvpod.entitlements; sourceTree = "<group>"; };
+		101ECCB328337A14002A80FC /* DingDongEat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DingDongEat.entitlements; sourceTree = "<group>"; };
+		101ECD252833A44C002A80FC /* Medicab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Medicab.entitlements; sourceTree = "<group>"; };
+		101ECD262833A459002A80FC /* FazeiTeam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FazeiTeam.entitlements; sourceTree = "<group>"; };
+		1024EF5928364ADA003B7F0B /* WeTogether.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeTogether.entitlements; sourceTree = "<group>"; };
+		1024EF5A28364AE7003B7F0B /* Jiffex.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jiffex.entitlements; sourceTree = "<group>"; };
+		1032F2A62824F70F00D48388 /* Toor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Toor.entitlements; sourceTree = "<group>"; };
+		1032F2DE28251F6900D48388 /* PeerDeliveries.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PeerDeliveries.entitlements; sourceTree = "<group>"; };
+		1032F317282526F600D48388 /* Swan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swan.entitlements; sourceTree = "<group>"; };
+		10386726281FBC61007B8D7E /* AmstaFood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AmstaFood.entitlements; sourceTree = "<group>"; };
+		104E1B1A283B8A0C00F6061D /* JazzyBug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JazzyBug.entitlements; sourceTree = "<group>"; };
+		104E1B1B283B8A1100F6061D /* Myfarma.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Myfarma.entitlements; sourceTree = "<group>"; };
+		105E86B7283239C300243FA4 /* ChowHub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChowHub.entitlements; sourceTree = "<group>"; };
+		105E86B828323A4200243FA4 /* GinDeliver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GinDeliver.entitlements; sourceTree = "<group>"; };
+		105E86B928323A5D00243FA4 /* OrderFirst.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OrderFirst.entitlements; sourceTree = "<group>"; };
+		105E86BA28323A9A00243FA4 /* Maiz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Maiz.entitlements; sourceTree = "<group>"; };
+		1066ADEB2817ECBE00846A58 /* EVSOnTheGo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EVSOnTheGo.entitlements; sourceTree = "<group>"; };
+		1066ADEC2817F07000846A58 /* Kazakazi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kazakazi.entitlements; sourceTree = "<group>"; };
+		1066AE272817F93D00846A58 /* Papiruki.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Papiruki.entitlements; sourceTree = "<group>"; };
+		1075AC8A282924EE0071D2F4 /* ButlerDelivery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ButlerDelivery.entitlements; sourceTree = "<group>"; };
+		1075AC8B282925260071D2F4 /* PatrolNow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PatrolNow.entitlements; sourceTree = "<group>"; };
+		10909D1A2819085C002D75B9 /* MarkSoublet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MarkSoublet.entitlements; sourceTree = "<group>"; };
+		109C3E44280E786A004D7344 /* BLIP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BLIP.entitlements; sourceTree = "<group>"; };
+		109C3E7E280E8F2F004D7344 /* Cartnar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cartnar.entitlements; sourceTree = "<group>"; };
+		109C3EB7280E97DC004D7344 /* Uven.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Uven.entitlements; sourceTree = "<group>"; };
+		109C3EF0280EB606004D7344 /* PAS41.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PAS41.entitlements; sourceTree = "<group>"; };
+		109C3F2A280ECD93004D7344 /* FreshFarmz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FreshFarmz.entitlements; sourceTree = "<group>"; };
+		10AAEB872816C121009BABED /* CaronaTaxi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CaronaTaxi.entitlements; sourceTree = "<group>"; };
+		10AAEBC02816C935009BABED /* Arwin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Arwin.entitlements; sourceTree = "<group>"; };
+		10B6D089283E0068009E2ACD /* Kartandkarry.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kartandkarry.entitlements; sourceTree = "<group>"; };
+		10C1E8952812940600D73DCD /* GasGiant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GasGiant.entitlements; sourceTree = "<group>"; };
+		10C78FD028113970007E21AE /* Smile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Smile.entitlements; sourceTree = "<group>"; };
+		10C8B60A282A9EB6003DBC1F /* SwatiRX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwatiRX.entitlements; sourceTree = "<group>"; };
+		10E5BE91283CFE76006F424C /* Valley.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Valley.entitlements; sourceTree = "<group>"; };
+		10E5BE92283CFEA7006F424C /* QuickLube.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickLube.entitlements; sourceTree = "<group>"; };
+		10E5BE93283CFEB4006F424C /* KeystoneDelivery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeystoneDelivery.entitlements; sourceTree = "<group>"; };
+		10F34DC72837A48F00445924 /* ClickService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClickService.entitlements; sourceTree = "<group>"; };
+		10F34DC82837A49F00445924 /* AmazingTaxi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AmazingTaxi.entitlements; sourceTree = "<group>"; };
+		12ACA41735E4177149C39973 /* Pods-available_pods-Patazone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Patazone.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Runrun/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Runrun/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Runrun/main.m; sourceTree = "<group>"; };
+		18020F21297FA69700894466 /* MelakPharmacy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MelakPharmacy.entitlements; sourceTree = "<group>"; };
+		18020F22297FBF4600894466 /* Kurs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kurs.entitlements; sourceTree = "<group>"; };
+		1802C61929B5F1E7005BD8E1 /* OyeeRides.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OyeeRides.entitlements; sourceTree = "<group>"; };
+		1816814F2987D52A00934D45 /* Bliss.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bliss.entitlements; sourceTree = "<group>"; };
+		181968622987E58500A9B7DD /* NannyAfrica.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NannyAfrica.entitlements; sourceTree = "<group>"; };
+		181F4A4D29A36E0C0034B5D1 /* Ebay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ebay.entitlements; sourceTree = "<group>"; };
+		183B13D429AE2135006898F7 /* ReadyToRent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReadyToRent.entitlements; sourceTree = "<group>"; };
+		183B13D529AE2157006898F7 /* TheGenie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheGenie.entitlements; sourceTree = "<group>"; };
+		183B13D629AE216E006898F7 /* Reedas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Reedas.entitlements; sourceTree = "<group>"; };
+		183B13D729AE2186006898F7 /* OneBasket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneBasket.entitlements; sourceTree = "<group>"; };
+		183B13D829AE219A006898F7 /* Zozozi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Zozozi.entitlements; sourceTree = "<group>"; };
+		183B13D929AE21B3006898F7 /* Ekobridge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ekobridge.entitlements; sourceTree = "<group>"; };
+		183B13DA29AE21C8006898F7 /* AmbosSafariExpress.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AmbosSafariExpress.entitlements; sourceTree = "<group>"; };
+		184FBA1B29AF1117006C7900 /* Zulbrand.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Zulbrand.entitlements; sourceTree = "<group>"; };
+		184FBA1C29AF11BB006C7900 /* BoozeBrothers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BoozeBrothers.entitlements; sourceTree = "<group>"; };
+		184FBA1D29AF1220006C7900 /* Etaim.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Etaim.entitlements; sourceTree = "<group>"; };
+		184FBA1E29AF1275006C7900 /* Buzy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Buzy.entitlements; sourceTree = "<group>"; };
+		184FBA1F29AF12AC006C7900 /* Oaks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Oaks.entitlements; sourceTree = "<group>"; };
+		184FBA2029AF12DB006C7900 /* LiverpoolEats.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LiverpoolEats.entitlements; sourceTree = "<group>"; };
+		184FBA2129AF132B006C7900 /* Aredoo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aredoo.entitlements; sourceTree = "<group>"; };
+		184FBA2229AF135E006C7900 /* Bukam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bukam.entitlements; sourceTree = "<group>"; };
+		184FBA2329AF1395006C7900 /* WizSonic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WizSonic.entitlements; sourceTree = "<group>"; };
+		184FBA2429AF1431006C7900 /* Udkay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Udkay.entitlements; sourceTree = "<group>"; };
+		184FBA2529AF145A006C7900 /* HattaFoodHub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HattaFoodHub.entitlements; sourceTree = "<group>"; };
+		184FBA2629AF148A006C7900 /* ViralClean.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ViralClean.entitlements; sourceTree = "<group>"; };
+		184FBA2729AF14AF006C7900 /* Stargaze.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stargaze.entitlements; sourceTree = "<group>"; };
+		184FBA2829AF14CB006C7900 /* Messiaa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Messiaa.entitlements; sourceTree = "<group>"; };
+		184FBA2929AF14F6006C7900 /* Nounou.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nounou.entitlements; sourceTree = "<group>"; };
+		18543A97295B287100E9741E /* Dot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dot.entitlements; sourceTree = "<group>"; };
+		186153B72990DBF700174151 /* GoKart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoKart.entitlements; sourceTree = "<group>"; };
+		186627142967094800BA8305 /* Ondgoo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ondgoo.entitlements; sourceTree = "<group>"; };
+		1887340D29681EF5002383DE /* Junkerz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Junkerz.entitlements; sourceTree = "<group>"; };
+		18873444296850BF002383DE /* Shopcart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shopcart.entitlements; sourceTree = "<group>"; };
+		188EC718297E70BB00AB3745 /* DotTaxiApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DotTaxiApp.entitlements; sourceTree = "<group>"; };
+		188EC719297E714300AB3745 /* AirvoltTaxi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AirvoltTaxi.entitlements; sourceTree = "<group>"; };
+		189377FC296D2C980081D15B /* MovingWheelsDelivery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MovingWheelsDelivery.entitlements; sourceTree = "<group>"; };
+		18B4E959299A7B520049F22F /* LivraiZoo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LivraiZoo.entitlements; sourceTree = "<group>"; };
+		18B50EC82993D1E000C38C47 /* Weemoov.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Weemoov.entitlements; sourceTree = "<group>"; };
+		18B9BDD5299A231E00C0A947 /* NGoal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NGoal.entitlements; sourceTree = "<group>"; };
+		18B9BDD6299A239800C0A947 /* WeedLomo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeedLomo.entitlements; sourceTree = "<group>"; };
+		18C423ED29AF547B0080E16B /* Emart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Emart.entitlements; sourceTree = "<group>"; };
+		18C5D08C298D201E006A1BC3 /* HqiStore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HqiStore.entitlements; sourceTree = "<group>"; };
+		18C5D0C3298D2AB6006A1BC3 /* Tkaff.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tkaff.entitlements; sourceTree = "<group>"; };
+		18C69A7C29891A7A00BED0CC /* WhatchaGotPickUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WhatchaGotPickUp.entitlements; sourceTree = "<group>"; };
+		18C7E1AE2994DC1C003E10F6 /* Rally.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rally.entitlements; sourceTree = "<group>"; };
+		18C7E1AF2994DC41003E10F6 /* Nool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nool.entitlements; sourceTree = "<group>"; };
+		18C7E1B02994DC87003E10F6 /* ShipSmart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShipSmart.entitlements; sourceTree = "<group>"; };
+		18CD3068299BA96600715723 /* MagicalBookings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MagicalBookings.entitlements; sourceTree = "<group>"; };
+		18F0206F297E95860098482F /* Laith.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Laith.entitlements; sourceTree = "<group>"; };
+		76804BEC269C14AB007926EE /* Runrun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Runrun.entitlements; path = Runrun/Runrun.entitlements; sourceTree = "<group>"; };
+		76804BF6269C157F007926EE /* Tranzit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tranzit.entitlements; sourceTree = "<group>"; };
+		76804BF7269C15CB007926EE /* Hmoobhub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hmoobhub.entitlements; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Runrun/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8400B89327253F65003BF24A /* Noki.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Noki.entitlements; sourceTree = "<group>"; };
+		8400C1A027254433003BF24A /* RXNow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RXNow.entitlements; sourceTree = "<group>"; };
+		8400CB4227254927003BF24A /* Driveree.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Driveree.entitlements; sourceTree = "<group>"; };
+		8400D4F627254CD6003BF24A /* Ored.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ored.entitlements; sourceTree = "<group>"; };
+		8405124727218A4F002D52AF /* AGBDeliveries.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AGBDeliveries.entitlements; sourceTree = "<group>"; };
+		84051A0527218EB2002D52AF /* TwoFinder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TwoFinder.entitlements; sourceTree = "<group>"; };
+		840521552721A0FF002D52AF /* Bookem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bookem.entitlements; sourceTree = "<group>"; };
+		8405A60426FE013500B6E1C6 /* PickMeUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PickMeUp.entitlements; sourceTree = "<group>"; };
+		8405A60526FE014100B6E1C6 /* Share.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Share.entitlements; sourceTree = "<group>"; };
+		841366B526BBEECF00008438 /* Shariff.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shariff.entitlements; sourceTree = "<group>"; };
+		8413EE2D26B024FA00A2F4C1 /* Cannabus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cannabus.entitlements; sourceTree = "<group>"; };
+		8415956226B4087E00FF20F4 /* AfricanVillageMarket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AfricanVillageMarket.entitlements; sourceTree = "<group>"; };
+		8415988A26B41A6100FF20F4 /* GovaChow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GovaChow.entitlements; sourceTree = "<group>"; };
+		8416E99526CD27C700D9B686 /* Ridemate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ridemate.entitlements; sourceTree = "<group>"; };
+		8416EED226CD381800D9B686 /* CodinerDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CodinerDebug.entitlements; sourceTree = "<group>"; };
+		841C025B27ACFE6E004AC6FE /* UBERCANN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UBERCANN.entitlements; sourceTree = "<group>"; };
+		841C10E227AD144E004AC6FE /* Launch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Launch.entitlements; sourceTree = "<group>"; };
+		841C19C627AD299A004AC6FE /* Kampick.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kampick.entitlements; sourceTree = "<group>"; };
+		841C93B42775B06000ED1DF3 /* Skoop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Skoop.entitlements; sourceTree = "<group>"; };
+		841CF8B127ACF8EA004AC6FE /* Kongafood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kongafood.entitlements; sourceTree = "<group>"; };
+		841E06BC274E3DD50033B4C5 /* NaDelivery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NaDelivery.entitlements; sourceTree = "<group>"; };
+		841EEC01274D096C0033B4C5 /* ChipeTaxi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChipeTaxi.entitlements; sourceTree = "<group>"; };
+		841EF671274E1BC70033B4C5 /* LaundryOrders.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LaundryOrders.entitlements; sourceTree = "<group>"; };
+		841EFDE8274E1E600033B4C5 /* INeed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = INeed.entitlements; sourceTree = "<group>"; };
+		841FD4BB270453240007E0F2 /* Vecto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Vecto.entitlements; sourceTree = "<group>"; };
+		841FDEDC27049B430007E0F2 /* Taquick.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Taquick.entitlements; sourceTree = "<group>"; };
+		84200CA728005B1D00B2221B /* HiperAbasto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HiperAbasto.entitlements; sourceTree = "<group>"; };
+		8420E80327FFFFDB00B2221B /* Meltivers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Meltivers.entitlements; sourceTree = "<group>"; };
+		8420FB1C280038D600B2221B /* EnsoDigitalAgency.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EnsoDigitalAgency.entitlements; sourceTree = "<group>"; };
+		842456A6270720C4005473D3 /* GoKab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoKab.entitlements; sourceTree = "<group>"; };
+		8424603A2707283D005473D3 /* Suel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Suel.entitlements; sourceTree = "<group>"; };
+		842465C927073C61005473D3 /* Elixir.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Elixir.entitlements; sourceTree = "<group>"; };
+		8425921527A7FFF800840D16 /* PalmettoPlus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PalmettoPlus.entitlements; sourceTree = "<group>"; };
+		84268BF9272985DE001EFE96 /* MaxisDelivery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MaxisDelivery.entitlements; sourceTree = "<group>"; };
+		842B1D652779D40E003FA3C5 /* Sofia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sofia.entitlements; sourceTree = "<group>"; };
+		842BA666272A838700A2E1A2 /* Donepacked.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Donepacked.entitlements; sourceTree = "<group>"; };
+		842BB943272ABC2600A2E1A2 /* ThubaeRides.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ThubaeRides.entitlements; sourceTree = "<group>"; };
+		842EEE7726DCD3EF00F121B5 /* RoyoOrder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RoyoOrder.entitlements; sourceTree = "<group>"; };
+		842F3A0B27E34F9F00FEDBCA /* Qseek.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Qseek.entitlements; sourceTree = "<group>"; };
+		84314F5026FB59D2005E3FC1 /* Codiner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Codiner.entitlements; sourceTree = "<group>"; };
+		84322FFD27EC726800B41CEC /* Upstreet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Upstreet.entitlements; sourceTree = "<group>"; };
+		843240F227EC7DC500B41CEC /* NewYorkMiniMart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewYorkMiniMart.entitlements; sourceTree = "<group>"; };
+		84324EB527EC92C500B41CEC /* AirlinesRecruiter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AirlinesRecruiter.entitlements; sourceTree = "<group>"; };
+		84324FD126C658580041E569 /* Drus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Drus.entitlements; sourceTree = "<group>"; };
+		84325D9C27EC9D0E00B41CEC /* NineOneTwo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NineOneTwo.entitlements; sourceTree = "<group>"; };
+		843391E627C3A3FB00ADB24E /* LocalDropoff.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LocalDropoff.entitlements; sourceTree = "<group>"; };
+		8433B78E28057B8100F35EFD /* DropItOffUsa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DropItOffUsa.entitlements; sourceTree = "<group>"; };
+		8433C7012805898B00F35EFD /* HandyPickup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HandyPickup.entitlements; sourceTree = "<group>"; };
+		84348FD726CCD33F00DB8C18 /* SirVU.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SirVU.entitlements; sourceTree = "<group>"; };
+		8434952E26CCE41100DB8C18 /* Ublue.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ublue.entitlements; sourceTree = "<group>"; };
+		843499BD26CCEF1900DB8C18 /* MsTechy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MsTechy.entitlements; sourceTree = "<group>"; };
+		84349DED26CD0D1F00DB8C18 /* SenshiveRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SenshiveRelease.entitlements; sourceTree = "<group>"; };
+		84399BA42757440000CBF3B6 /* EnExt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EnExt.entitlements; sourceTree = "<group>"; };
+		843CD47D276B1D9F00C05303 /* Skidoo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Skidoo.entitlements; sourceTree = "<group>"; };
+		843DF19826BAA2ED008210BD /* Bustan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bustan.entitlements; sourceTree = "<group>"; };
+		843E963C27F4246B009D8DD1 /* FarmerSouq.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FarmerSouq.entitlements; sourceTree = "<group>"; };
+		843F3DE9280957B2000708F7 /* CurblerLLC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CurblerLLC.entitlements; sourceTree = "<group>"; };
+		84425D4327438919007CD3C8 /* Yeboy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Yeboy.entitlements; sourceTree = "<group>"; };
+		84427F2A2743E3E4007CD3C8 /* MobosErrandsService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MobosErrandsService.entitlements; sourceTree = "<group>"; };
+		84437DAB2775CE1700FBB0FA /* Kudhyo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kudhyo.entitlements; sourceTree = "<group>"; };
+		844385382775E2C500FBB0FA /* BharatMove.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BharatMove.entitlements; sourceTree = "<group>"; };
+		8444AE57274F65A100F75A0A /* Marasym.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Marasym.entitlements; sourceTree = "<group>"; };
+		8444B546274F6A6600F75A0A /* Silvestre.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Silvestre.entitlements; sourceTree = "<group>"; };
+		8444D25227FC61A900521F32 /* AauJau.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AauJau.entitlements; sourceTree = "<group>"; };
+		8445E96627FECADB00A42DAB /* Hivefair.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hivefair.entitlements; sourceTree = "<group>"; };
+		8447E25926DF636B00A23425 /* MenusDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MenusDebug.entitlements; sourceTree = "<group>"; };
+		8447E75326DF9A9100A23425 /* DoorStepDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DoorStepDebug.entitlements; sourceTree = "<group>"; };
+		844892DA26FA186300BD865C /* eBOYORelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = eBOYORelease.entitlements; sourceTree = "<group>"; };
+		8449646626DD0A13001401BF /* ErrandDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ErrandDebug.entitlements; sourceTree = "<group>"; };
+		844AAA5E27D78D8200F613A9 /* Dbairro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dbairro.entitlements; sourceTree = "<group>"; };
+		844ABA4D27D79A2600F613A9 /* KnockKnock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KnockKnock.entitlements; sourceTree = "<group>"; };
+		844D527227C8A38D0044DB9A /* BookARyde.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BookARyde.entitlements; sourceTree = "<group>"; };
+		844D658E27C8E9D00044DB9A /* PetsChoice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PetsChoice.entitlements; sourceTree = "<group>"; };
+		844D711E27C8ECFB0044DB9A /* HeyBuddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HeyBuddy.entitlements; sourceTree = "<group>"; };
+		844D7A6527C913BB0044DB9A /* YoloSonic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YoloSonic.entitlements; sourceTree = "<group>"; };
+		844D824027C917BF0044DB9A /* Lopht.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lopht.entitlements; sourceTree = "<group>"; };
+		844F2AB326CBC8CE00A7708F /* Markita.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Markita.entitlements; sourceTree = "<group>"; };
+		844FDD1C2673989300C16835 /* CircularStd-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Bold.ttf"; sourceTree = "<group>"; };
+		844FDD1D2673989300C16835 /* CircularStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.otf"; sourceTree = "<group>"; };
+		844FDD1E2673989300C16835 /* CircularStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Book.otf"; sourceTree = "<group>"; };
+		8450C7DA27DF736E00C2486A /* Delivery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Delivery.entitlements; sourceTree = "<group>"; };
+		84519E6A27D9D98400317E27 /* Slider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Slider.entitlements; sourceTree = "<group>"; };
+		8452362E26F4C18A00DE21B8 /* BaytukomDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BaytukomDebug.entitlements; sourceTree = "<group>"; };
+		8455CA3626DFBC2200C27F72 /* Eina02-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eina02-Bold.ttf"; sourceTree = "<group>"; };
+		8455CA3726DFBC2200C27F72 /* Eina02-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eina02-SemiBold.ttf"; sourceTree = "<group>"; };
+		8455CA3826DFBC2200C27F72 /* Eina02-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eina02-Regular.ttf"; sourceTree = "<group>"; };
+		84564FA22756423700F6CC22 /* SeaEats.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SeaEats.entitlements; sourceTree = "<group>"; };
+		8459C29F277ADEBB00D36404 /* MML.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MML.entitlements; sourceTree = "<group>"; };
+		8461AF89273E47E4003AB3BB /* Bezalio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bezalio.entitlements; sourceTree = "<group>"; };
+		8461B9EA273E7BB9003AB3BB /* YouChillax.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YouChillax.entitlements; sourceTree = "<group>"; };
+		8461C233273E91B5003AB3BB /* InstaShop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InstaShop.entitlements; sourceTree = "<group>"; };
+		8461E55426E22B7C00E94D55 /* WeGotit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeGotit.entitlements; sourceTree = "<group>"; };
+		8461ECBC26E242EA00E94D55 /* Survuhs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Survuhs.entitlements; sourceTree = "<group>"; };
+		8461F2EE26E253D600E94D55 /* IGoLux.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IGoLux.entitlements; sourceTree = "<group>"; };
+		84634A7F27D77850005F6F9E /* Dlvrd.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dlvrd.entitlements; sourceTree = "<group>"; };
+		84685A2B26E0D23400F7063A /* SunshineRideshare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SunshineRideshare.entitlements; sourceTree = "<group>"; };
+		846861F826E0F19000F7063A /* Autotek.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Autotek.entitlements; sourceTree = "<group>"; };
+		8468FFA326A830740076EBC5 /* Spidbi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Spidbi.entitlements; sourceTree = "<group>"; };
+		84691DA526E771B700E28501 /* MOBI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MOBI.entitlements; sourceTree = "<group>"; };
+		8469242626E78A5100E28501 /* YourLaundryApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YourLaundryApp.entitlements; sourceTree = "<group>"; };
+		84692AF426E79D0100E28501 /* HemptyFy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HemptyFy.entitlements; sourceTree = "<group>"; };
+		846B5EDF2716F0FB00367125 /* BakeSale.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BakeSale.entitlements; sourceTree = "<group>"; };
+		846B66502716F97200367125 /* ElCheRegio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ElCheRegio.entitlements; sourceTree = "<group>"; };
+		846B6F902717071000367125 /* Yaawi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Yaawi.entitlements; sourceTree = "<group>"; };
+		846B787827170BD400367125 /* Hosta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hosta.entitlements; sourceTree = "<group>"; };
+		846CB4502A657ED8008445DB /* Patazone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patazone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846CB4532A657F36008445DB /* Patazone(Development).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Patazone(Development).xcconfig"; sourceTree = "<group>"; };
+		846CB4552A657F51008445DB /* Patazone(Production).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Patazone(Production).xcconfig"; sourceTree = "<group>"; };
+		846CB4572A657F65008445DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		846CB4592A658271008445DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		846D9A2B278EEEEA00980345 /* Ritenow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ritenow.entitlements; sourceTree = "<group>"; };
+		846DA62B278EF80600980345 /* Flit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Flit.entitlements; sourceTree = "<group>"; };
+		846DA78B2681E47000CC5BA2 /* FuturaBT-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FuturaBT-Heavy.ttf"; path = "../../src/assets/fonts/FuturaBT-Heavy.ttf"; sourceTree = "<group>"; };
+		846DA78C2681E47000CC5BA2 /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProDisplay-Regular.ttf"; path = "../../src/assets/fonts/SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		846DA78D2681E47000CC5BA2 /* SFProText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Regular.ttf"; path = "../../src/assets/fonts/SFProText-Regular.ttf"; sourceTree = "<group>"; };
+		846DA78E2681E47100CC5BA2 /* Futura Hv BT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Futura Hv BT.ttf"; path = "../../src/assets/fonts/Futura Hv BT.ttf"; sourceTree = "<group>"; };
+		846DA78F2681E47100CC5BA2 /* SFProText-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-SemiBold.ttf"; path = "../../src/assets/fonts/SFProText-SemiBold.ttf"; sourceTree = "<group>"; };
+		846DA7902681E47100CC5BA2 /* Futura-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Futura-Medium.ttf"; path = "../../src/assets/fonts/Futura-Medium.ttf"; sourceTree = "<group>"; };
+		846DA7912681E47100CC5BA2 /* SFProText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Bold.ttf"; path = "../../src/assets/fonts/SFProText-Bold.ttf"; sourceTree = "<group>"; };
+		846DA7922681E47100CC5BA2 /* Futura-Normal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Futura-Normal.ttf"; path = "../../src/assets/fonts/Futura-Normal.ttf"; sourceTree = "<group>"; };
+		846DA7932681E47100CC5BA2 /* Futura-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Futura-Book.ttf"; path = "../../src/assets/fonts/Futura-Book.ttf"; sourceTree = "<group>"; };
+		846DA7942681E47100CC5BA2 /* SFProText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Medium.ttf"; path = "../../src/assets/fonts/SFProText-Medium.ttf"; sourceTree = "<group>"; };
+		846DB5BC2790246900980345 /* IHELP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IHELP.entitlements; sourceTree = "<group>"; };
+		846DC15227902ABA00980345 /* Ullaz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ullaz.entitlements; sourceTree = "<group>"; };
+		846DCA3D279033E000980345 /* Privatepremiumpickups.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Privatepremiumpickups.entitlements; sourceTree = "<group>"; };
+		846DD40627903BDC00980345 /* FidesDelivery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FidesDelivery.entitlements; sourceTree = "<group>"; };
+		846E270026C3D438007BB60D /* MartiniOnWheels.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MartiniOnWheels.entitlements; sourceTree = "<group>"; };
+		846E6F7226C6737E00C7A2C5 /* Yahu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Yahu.entitlements; sourceTree = "<group>"; };
+		846E73E826C67EB300C7A2C5 /* ZuzuClean.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZuzuClean.entitlements; sourceTree = "<group>"; };
+		846E78A626C68DB100C7A2C5 /* TowTrek.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TowTrek.entitlements; sourceTree = "<group>"; };
+		846E7CB426C698AF00C7A2C5 /* ArenaGrub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArenaGrub.entitlements; sourceTree = "<group>"; };
+		846EA97926A9409C000073CE /* UFood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UFood.entitlements; sourceTree = "<group>"; };
+		846EB3FA26CE3D41004CA92B /* HairstonExpress.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HairstonExpress.entitlements; sourceTree = "<group>"; };
+		846EB8BE26CE557A004CA92B /* DiamondDashers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DiamondDashers.entitlements; sourceTree = "<group>"; };
+		846EBE1026CE6B62004CA92B /* DestinationOps.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DestinationOps.entitlements; sourceTree = "<group>"; };
+		846ECF4F2756289E00983AA5 /* Samakee Mart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Samakee Mart.entitlements"; sourceTree = "<group>"; };
+		847170452725431D0049C1D5 /* SeaChangeVending.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SeaChangeVending.entitlements; sourceTree = "<group>"; };
+		8472A61C27254C7C00CD25DC /* OrderChekout.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OrderChekout.entitlements; sourceTree = "<group>"; };
+		8473132427B673E9006565B8 /* MeatEasy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MeatEasy.entitlements; sourceTree = "<group>"; };
+		8474369D27735AD300B48DE0 /* DimaVega.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DimaVega.entitlements; sourceTree = "<group>"; };
+		847732B827EC565600142126 /* Bua.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bua.entitlements; sourceTree = "<group>"; };
+		84782AA9277AED2A00476AB4 /* Bimol.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bimol.entitlements; sourceTree = "<group>"; };
+		8478E1C2270708BD0083F24E /* GrubDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GrubDebug.entitlements; sourceTree = "<group>"; };
+		8478E72527070DF10083F24E /* Gusto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gusto.entitlements; sourceTree = "<group>"; };
+		8478F078270724ED0083F24E /* Punnet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Punnet.entitlements; sourceTree = "<group>"; };
+		8478F6BE270731500083F24E /* Homeric.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Homeric.entitlements; sourceTree = "<group>"; };
+		8478FDDD27073B9D0083F24E /* Voltaic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Voltaic.entitlements; sourceTree = "<group>"; };
+		847971AA26B96E9700B8D286 /* GajaMove.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GajaMove.entitlements; sourceTree = "<group>"; };
+		8479EEB7273FEA710090FB2A /* ShooraFresh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShooraFresh.entitlements; sourceTree = "<group>"; };
+		847AB7E227CB50BF008287C6 /* Fawaz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fawaz.entitlements; sourceTree = "<group>"; };
+		847ABFF227CB53BD008287C6 /* GRN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GRN.entitlements; sourceTree = "<group>"; };
+		847AC80927CB56FF008287C6 /* Delivadrinks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Delivadrinks.entitlements; sourceTree = "<group>"; };
+		847AD71027CB71FE008287C6 /* MyRide.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyRide.entitlements; sourceTree = "<group>"; };
+		847CFDA727633AC500A96CE8 /* Sponge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sponge.entitlements; sourceTree = "<group>"; };
+		847D859227DF2E0B007CEE7D /* Scootz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Scootz.entitlements; sourceTree = "<group>"; };
+		847E231D27DF11B3009D4A5F /* Spliffnation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Spliffnation.entitlements; sourceTree = "<group>"; };
+		847E8F9226DCB7EF0054CD42 /* Fleety.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fleety.entitlements; sourceTree = "<group>"; };
+		847EE4F5278410ED0003197D /* PinkyDeli.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PinkyDeli.entitlements; sourceTree = "<group>"; };
+		847F717D2720450C00C7A32F /* Stonses.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stonses.entitlements; sourceTree = "<group>"; };
+		84800D3B26CE2EBE0014F500 /* Housekeeper4Hire.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Housekeeper4Hire.entitlements; sourceTree = "<group>"; };
+		848015E027C9E9EB004130DD /* MrHealth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MrHealth.entitlements; sourceTree = "<group>"; };
+		8480240F27C9FDDB004130DD /* Yalary.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Yalary.entitlements; sourceTree = "<group>"; };
+		8480315527CA14C7004130DD /* Seratho.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Seratho.entitlements; sourceTree = "<group>"; };
+		8480E2BD27A7CF6200671D85 /* HalaTalabat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HalaTalabat.entitlements; sourceTree = "<group>"; };
+		84817BE5273952DA00DA9C3D /* PinkJet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PinkJet.entitlements; sourceTree = "<group>"; };
+		848211142773224900A5EF06 /* SafeWalks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafeWalks.entitlements; sourceTree = "<group>"; };
+		8482877D27CA3FE200925958 /* Xborne.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Xborne.entitlements; sourceTree = "<group>"; };
+		8485500F26C4F41E00BFFD11 /* Servze.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Servze.entitlements; sourceTree = "<group>"; };
+		848550A02705E25900DC40B5 /* Goody.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Goody.entitlements; sourceTree = "<group>"; };
+		8486F769271D3BCB006FEE41 /* QuickQuick.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickQuick.entitlements; sourceTree = "<group>"; };
+		848A16B627425ADE003BD140 /* Click2Deliver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Click2Deliver.entitlements; sourceTree = "<group>"; };
+		848A1D6A27425EC6003BD140 /* TruckTireNow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TruckTireNow.entitlements; sourceTree = "<group>"; };
+		848B085227675FF200DAA1EB /* ShopCentral.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShopCentral.entitlements; sourceTree = "<group>"; };
+		848BD6DA278C468100FEC147 /* Easyu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Easyu.entitlements; sourceTree = "<group>"; };
+		848BE9C2278C531000FEC147 /* Mozmarcas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mozmarcas.entitlements; sourceTree = "<group>"; };
+		848BFC49278C66C400FEC147 /* Myfiji.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Myfiji.entitlements; sourceTree = "<group>"; };
+		848BFF9E27675CDB00DAA1EB /* GoMeat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoMeat.entitlements; sourceTree = "<group>"; };
+		848C292727144F0900D492B5 /* Empire.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Empire.entitlements; sourceTree = "<group>"; };
+		848C2FEA2714560700D492B5 /* ExpressDeliveryLLC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExpressDeliveryLLC.entitlements; sourceTree = "<group>"; };
+		848C3795271469F900D492B5 /* BoozieDoozie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BoozieDoozie.entitlements; sourceTree = "<group>"; };
+		848C3F5327146D7D00D492B5 /* ZestyClickz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZestyClickz.entitlements; sourceTree = "<group>"; };
+		848C9DAF278D585D00DD824C /* fastmikes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fastmikes.entitlements; sourceTree = "<group>"; };
+		848CA900278D5F1C00DD824C /* CitySuds.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CitySuds.entitlements; sourceTree = "<group>"; };
+		848CAD2427A9321100CC66D6 /* Allotaxi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Allotaxi.entitlements; sourceTree = "<group>"; };
+		848CB52C278D69AB00DD824C /* HomeTownDelivery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HomeTownDelivery.entitlements; sourceTree = "<group>"; };
+		848D7C042748F95D00FE87AC /* RunaRound.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RunaRound.entitlements; sourceTree = "<group>"; };
+		848D83E42749022E00FE87AC /* SwiftandValu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftandValu.entitlements; sourceTree = "<group>"; };
+		848F583F28044D5000006270 /* Redglee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Redglee.entitlements; sourceTree = "<group>"; };
+		848FA23326E8BAF2008116B5 /* Sharu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sharu.entitlements; sourceTree = "<group>"; };
+		848FA8FF26E9EF41008116B5 /* SMCompany.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SMCompany.entitlements; sourceTree = "<group>"; };
+		848FB06C26EB3626008116B5 /* Totum4U.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Totum4U.entitlements; sourceTree = "<group>"; };
+		8490349926EB790B00E4AE5A /* HMC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HMC.entitlements; sourceTree = "<group>"; };
+		84903B7626EB882F00E4AE5A /* Groupy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Groupy.entitlements; sourceTree = "<group>"; };
+		8493F7C426CB8BB0006AD6AD /* Yummiidash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Yummiidash.entitlements; sourceTree = "<group>"; };
+		849472B2273A8427000E016B /* MokabFix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MokabFix.entitlements; sourceTree = "<group>"; };
+		84947B1E273A998E000E016B /* BotsEats.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BotsEats.entitlements; sourceTree = "<group>"; };
+		84961BD527DA18D900C02013 /* Icare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Icare.entitlements; sourceTree = "<group>"; };
+		8496BC0526F1B860001AAB4C /* Metropolis-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Regular.otf"; sourceTree = "<group>"; };
+		8496BC0626F1B861001AAB4C /* Metropolis-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-SemiBold.otf"; sourceTree = "<group>"; };
+		8496BC0726F1B862001AAB4C /* Metropolis-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Bold.otf"; sourceTree = "<group>"; };
+		84991B7D279934DD00A955AC /* Fairex.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fairex.entitlements; sourceTree = "<group>"; };
+		849924DC27993E9D00A955AC /* CannabisClubSF.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CannabisClubSF.entitlements; sourceTree = "<group>"; };
+		849AE2CD26C529FD00B6C20D /* Travo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Travo.entitlements; sourceTree = "<group>"; };
+		849AE81126C5415900B6C20D /* Cabdelivr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cabdelivr.entitlements; sourceTree = "<group>"; };
+		849BD7A727465F420036F905 /* Ssuum.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ssuum.entitlements; sourceTree = "<group>"; };
+		849BDBA2274663850036F905 /* BlacNetwork.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlacNetwork.entitlements; sourceTree = "<group>"; };
+		849BE35A2746711C0036F905 /* ThreadAgain.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ThreadAgain.entitlements; sourceTree = "<group>"; };
+		849BEA7F27467E560036F905 /* EzMobileFuel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EzMobileFuel.entitlements; sourceTree = "<group>"; };
+		849C3A0627EB4C390026508A /* Rideshare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rideshare.entitlements; sourceTree = "<group>"; };
+		849D808726DE3F1200347B00 /* PartnerProjectDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PartnerProjectDebug.entitlements; sourceTree = "<group>"; };
+		849DD0C827DF4C8E0036210F /* TimHomeServices.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TimHomeServices.entitlements; sourceTree = "<group>"; };
+		849DE22527DF644F0036210F /* Viversbox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Viversbox.entitlements; sourceTree = "<group>"; };
+		84A08E5F26B3F3DA00216740 /* HelpNowRightNow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelpNowRightNow.entitlements; sourceTree = "<group>"; };
+		84A2FB7326B18695008F557E /* Masa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Masa.entitlements; sourceTree = "<group>"; };
+		84A806AD26C3A4EC00F35132 /* WashValley.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WashValley.entitlements; sourceTree = "<group>"; };
+		84A808DB26C3D54900F35132 /* EquaMD.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EquaMD.entitlements; sourceTree = "<group>"; };
+		84A80BC826C3E19A00F35132 /* HelloDeliver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloDeliver.entitlements; sourceTree = "<group>"; };
+		84A810B526C3FE3300F35132 /* HoganChef.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HoganChef.entitlements; sourceTree = "<group>"; };
+		84A859D826E8919A004CA54F /* HemptiFy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HemptiFy.entitlements; sourceTree = "<group>"; };
+		84ABE59B26C2441300658CE6 /* Klickmat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Klickmat.entitlements; sourceTree = "<group>"; };
+		84ABE89926C2517600658CE6 /* FoodKart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoodKart.entitlements; sourceTree = "<group>"; };
+		84AE32E526BAD201005257F6 /* Getme.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Getme.entitlements; sourceTree = "<group>"; };
+		84B0703326C25B94006C0FC7 /* Rerak.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rerak.entitlements; sourceTree = "<group>"; };
+		84B11D0926E620F900497B86 /* Toda.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Toda.entitlements; sourceTree = "<group>"; };
+		84B36A0826C2798D00DF67B0 /* Yoho.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Yoho.entitlements; sourceTree = "<group>"; };
+		84B36ED626C28EA000DF67B0 /* Glamsouq.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Glamsouq.entitlements; sourceTree = "<group>"; };
+		84B371DC26C2985A00DF67B0 /* DoctaTransportation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DoctaTransportation.entitlements; sourceTree = "<group>"; };
+		84B6D04027B249DC00DBBF51 /* iPicknDrop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iPicknDrop.entitlements; sourceTree = "<group>"; };
+		84B6DE3527B256DC00DBBF51 /* Bluebolt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bluebolt.entitlements; sourceTree = "<group>"; };
+		84B8C22F27ABF9C200C8EF89 /* JadorDrive.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JadorDrive.entitlements; sourceTree = "<group>"; };
+		84B8D2FC26F0D8FE0099E3A0 /* Gorillas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gorillas.entitlements; sourceTree = "<group>"; };
+		84BA4CE62796D4B1006CD402 /* BKSTaxi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BKSTaxi.entitlements; sourceTree = "<group>"; };
+		84BA58892796D804006CD402 /* OXO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OXO.entitlements; sourceTree = "<group>"; };
+		84BDE18627C3E544005A160E /* Foodies.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Foodies.entitlements; sourceTree = "<group>"; };
+		84BDECD927C3E8D2005A160E /* GO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GO.entitlements; sourceTree = "<group>"; };
+		84BEA5CF26DCF37600390501 /* FlyingHorseDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlyingHorseDebug.entitlements; sourceTree = "<group>"; };
+		84C0695526B2A9360096845B /* ClickEat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClickEat.entitlements; sourceTree = "<group>"; };
+		84C0883427B12072002522C7 /* Cabio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cabio.entitlements; sourceTree = "<group>"; };
+		84C4316A27589C9C0033A1FC /* Hokitch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hokitch.entitlements; sourceTree = "<group>"; };
+		84C437E82758A3960033A1FC /* FoodNests.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoodNests.entitlements; sourceTree = "<group>"; };
+		84C4D59827E1F441009FEC91 /* SourcesServices.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SourcesServices.entitlements; sourceTree = "<group>"; };
+		84C4FEC52805A405007ED59A /* TJJHub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TJJHub.entitlements; sourceTree = "<group>"; };
+		84C5A5DD2798118700DE9654 /* Sijang.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sijang.entitlements; sourceTree = "<group>"; };
+		84C5B2EF279826FE00DE9654 /* Everywhere.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Everywhere.entitlements; sourceTree = "<group>"; };
+		84C6AFF9273BE70700D6AAA1 /* Gumastas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gumastas.entitlements; sourceTree = "<group>"; };
+		84C6B76A273BEDBA00D6AAA1 /* Dishefs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dishefs.entitlements; sourceTree = "<group>"; };
+		84C856262707497500D6B750 /* Ace.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ace.entitlements; sourceTree = "<group>"; };
+		84C8A998273D1E6E00B47FA9 /* Bilionza.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bilionza.entitlements; sourceTree = "<group>"; };
+		84C8B345273D436900B47FA9 /* DoleyPharmacy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DoleyPharmacy.entitlements; sourceTree = "<group>"; };
+		84CB0E6F274CC16D00E5F07B /* Trucxi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Trucxi.entitlements; sourceTree = "<group>"; };
+		84CB170A274CC95A00E5F07B /* PaySic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PaySic.entitlements; sourceTree = "<group>"; };
+		84CDD92726BC0F7A001FE3EE /* Orbit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Orbit.entitlements; sourceTree = "<group>"; };
+		84CEECF0275792AE004F89CE /* Snabbhem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Snabbhem.entitlements; sourceTree = "<group>"; };
+		84D1CDDD2703529C00C05E36 /* notification.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification.wav; sourceTree = "<group>"; };
+		84D1F1DE26BD761500530751 /* Carlitoo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Carlitoo.entitlements; sourceTree = "<group>"; };
+		84D3FEC827F1A4E2006ACDC8 /* Trip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Trip.entitlements; sourceTree = "<group>"; };
+		84D418FD2744FE3C000AAB1C /* CabWay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CabWay.entitlements; sourceTree = "<group>"; };
+		84D42113274504E2000AAB1C /* Kel360.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kel360.entitlements; sourceTree = "<group>"; };
+		84D4245E27450F7E000AAB1C /* Tajammul.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tajammul.entitlements; sourceTree = "<group>"; };
+		84D42EFE27451905000AAB1C /* Carroai.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Carroai.entitlements; sourceTree = "<group>"; };
+		84D47E6026C1381B00EE9EB5 /* Tasmeem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tasmeem.entitlements; sourceTree = "<group>"; };
+		84D4823526C14ABC00EE9EB5 /* TheHouse.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheHouse.entitlements; sourceTree = "<group>"; };
+		84D483FD26C1539200EE9EB5 /* LastMinuteDress.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LastMinuteDress.entitlements; sourceTree = "<group>"; };
+		84D4889626C166A200EE9EB5 /* Specialhalal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Specialhalal.entitlements; sourceTree = "<group>"; };
+		84D4D1D62770651B005892AA /* ADMCourier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ADMCourier.entitlements; sourceTree = "<group>"; };
+		84D4DCD127706790005892AA /* KurbsideKings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KurbsideKings.entitlements; sourceTree = "<group>"; };
+		84D8688227C8FD98001725D6 /* UbiRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UbiRelease.entitlements; sourceTree = "<group>"; };
+		84D8688327C8FEF7001725D6 /* Ubi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ubi.entitlements; sourceTree = "<group>"; };
+		84D8C52F269F0DD40020B09A /* Yogo Food.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Yogo Food.entitlements"; sourceTree = "<group>"; };
+		84DD32E526CA2E7800F02437 /* Jet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jet.entitlements; sourceTree = "<group>"; };
+		84DD36D82653D9EF00E2097D /* Plists */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Plists; path = Runrun/Plists; sourceTree = "<group>"; };
+		84DD387726CA483800F02437 /* Africanize.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Africanize.entitlements; sourceTree = "<group>"; };
+		84DFA21A2718064500EE678D /* Somame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Somame.entitlements; sourceTree = "<group>"; };
+		84DFAB9627183B4100EE678D /* Tranznet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tranznet.entitlements; sourceTree = "<group>"; };
+		84DFB59A27184D2E00EE678D /* GoodWheelz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoodWheelz.entitlements; sourceTree = "<group>"; };
+		84E7B02427E07B890055ECB2 /* Ola.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ola.entitlements; sourceTree = "<group>"; };
+		84E7BDFC27E096890055ECB2 /* Wer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wer.entitlements; sourceTree = "<group>"; };
+		84E7C9D227E0A10E0055ECB2 /* Beachhop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Beachhop.entitlements; sourceTree = "<group>"; };
+		84E7D34927E0C6420055ECB2 /* Tumbak.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tumbak.entitlements; sourceTree = "<group>"; };
+		84EA41CC26393E950078E919 /* libRNGoogleSignin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNGoogleSignin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EA41CE26393EA70078E919 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		84EA41D026393EB30078E919 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		84EA41D226393EC40078E919 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		84EA41D426393EE20078E919 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		84ECE2E926A7FD83009A0F8C /* InstaMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InstaMobile.entitlements; sourceTree = "<group>"; };
+		84EE538E2A6586DE004F25BA /* PatazoneRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PatazoneRelease.entitlements; sourceTree = "<group>"; };
+		84F0527A27C7BB3E007F6CCB /* BauBauDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BauBauDebug.entitlements; sourceTree = "<group>"; };
+		84F2000027EDA9A800C51613 /* Releezer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Releezer.entitlements; sourceTree = "<group>"; };
+		84F321C2271985AD00130594 /* Agrionline.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Agrionline.entitlements; sourceTree = "<group>"; };
+		84F32A972719897C00130594 /* Sambiga.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sambiga.entitlements; sourceTree = "<group>"; };
+		84F4661426A707BC00D378D5 /* BottomsUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BottomsUp.entitlements; sourceTree = "<group>"; };
+		84F4678E26A7F27400D378D5 /* Runrun-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runrun-Bridging-Header.h"; sourceTree = "<group>"; };
+		84F4678F26A7F27400D378D5 /* RoyoOrder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoyoOrder-Bridging-Header.h"; sourceTree = "<group>"; };
+		84F4679026A7F27400D378D5 /* Tranzit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tranzit-Bridging-Header.h"; sourceTree = "<group>"; };
+		84F4679126A7F27400D378D5 /* Hmoobhub-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hmoobhub-Bridging-Header.h"; sourceTree = "<group>"; };
+		84F4679226A7F27400D378D5 /* Capcorp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Capcorp-Bridging-Header.h"; sourceTree = "<group>"; };
+		84F4679326A7F27400D378D5 /* Masa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Masa-Bridging-Header.h"; sourceTree = "<group>"; };
+		84F4679426A7F27400D378D5 /* Yogo Food-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yogo Food-Bridging-Header.h"; sourceTree = "<group>"; };
+		84F4679526A7F27400D378D5 /* BottomsUp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BottomsUp-Bridging-Header.h"; sourceTree = "<group>"; };
+		84F4679626A7F27500D378D5 /* Royo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Royo.swift; sourceTree = "<group>"; };
+		84F5BA6527107E4000470705 /* Zest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Zest.entitlements; sourceTree = "<group>"; };
+		84F71D36271EA872003B51DF /* CaribeClean.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CaribeClean.entitlements; sourceTree = "<group>"; };
+		84F9602927B8C1BD001CA0B1 /* BoltDelivery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BoltDelivery.entitlements; sourceTree = "<group>"; };
+		84FA236B27C4E84100E4D8FB /* MandaExpress.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MandaExpress.entitlements; sourceTree = "<group>"; };
+		84FE279E26EF54C300849F64 /* WeEat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeEat.entitlements; sourceTree = "<group>"; };
+		84FE70972722E263001F8A2F /* Zip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Zip.entitlements; sourceTree = "<group>"; };
+		84FE79822722E91B001F8A2F /* RIDETCI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RIDETCI.entitlements; sourceTree = "<group>"; };
+		84FF002C26D676C200F2B059 /* YogoLift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YogoLift.entitlements; sourceTree = "<group>"; };
+		84FF65C927CE26C0006774C1 /* Getfix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Getfix.entitlements; sourceTree = "<group>"; };
+		84FFF10326D642C600F2B059 /* CarHop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CarHop.entitlements; sourceTree = "<group>"; };
+		84FFF79F26D656E900F2B059 /* Vici.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Vici.entitlements; sourceTree = "<group>"; };
+		84FFFCE926D669C200F2B059 /* LoopWhole.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoopWhole.entitlements; sourceTree = "<group>"; };
+		987129392941BA5D009B0506 /* Glavour.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Glavour.entitlements; sourceTree = "<group>"; };
+		9897C0802940A6B00049972B /* LvlUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LvlUp.entitlements; sourceTree = "<group>"; };
+		98C00382286C7F6000478618 /* ExprexPro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExprexPro.entitlements; sourceTree = "<group>"; };
+		98C03ED228648AAB005B62E0 /* AbbeRides.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AbbeRides.entitlements; sourceTree = "<group>"; };
+		98C91B1C286985A600D633D8 /* Sadia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sadia.entitlements; sourceTree = "<group>"; };
+		98D86E112865E9F700C42B5B /* TMGShops.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TMGShops.entitlements; sourceTree = "<group>"; };
+		AFBD678387D4E3BEA0D35A3F /* libPods-available_pods-Patazone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Patazone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1C009C283FBAE3004291D1 /* BusTaMove.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BusTaMove.entitlements; sourceTree = "<group>"; };
+		ECA1A1EE283F5C9200081F88 /* BlueBundles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlueBundles.entitlements; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F43B38F8286F191C007547B9 /* MyfijiRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyfijiRelease.entitlements; sourceTree = "<group>"; };
+		F46EF7932844F9EA002AA14A /* SorDelivery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SorDelivery.entitlements; sourceTree = "<group>"; };
+		F4803A9529BB18D50024D9DD /* ROYORIDES.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ROYORIDES.entitlements; sourceTree = "<group>"; };
+		F4803A9629BB19240024D9DD /* Tempcorner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tempcorner.entitlements; sourceTree = "<group>"; };
+		F4803AD629BB24250024D9DD /* Autobox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Autobox.entitlements; sourceTree = "<group>"; };
+		F481BEDF285357DB002CABBF /* DingDongDelivers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DingDongDelivers.entitlements; sourceTree = "<group>"; };
+		F481BEE02853584C002CABBF /* Meow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Meow.entitlements; sourceTree = "<group>"; };
+		F481BEE12853587D002CABBF /* HitchDelivery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HitchDelivery.entitlements; sourceTree = "<group>"; };
+		F4BD7EA729BF316100EC70C0 /* DetailPros.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DetailPros.entitlements; sourceTree = "<group>"; };
+		F4F7881C2840D679007E5099 /* AtaskttRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AtaskttRelease.entitlements; sourceTree = "<group>"; };
+		F4F788532840FED9007E5099 /* Lunchbox SpecialsRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lunchbox SpecialsRelease.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846CB42F2A657ED8008445DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627E06F729D0064BD535A81F /* libPods-available_pods-Patazone.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* RunrunTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* RunrunTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = RunrunTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		104E1AA0283B6CB700F6061D /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Runrun */ = {
+			isa = PBXGroup;
+			children = (
+				76804BEC269C14AB007926EE /* Runrun.entitlements */,
+				7647BC0A269C09D9003AC88C /* Entitlements */,
+				844FDD0F267397EF00C16835 /* Fonts */,
+				844804B42653CF490050AA67 /* Configs */,
+				84DD36D82653D9EF00E2097D /* Plists */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Runrun;
+			sourceTree = "<group>";
+		};
+		293CCC036299F75712B8E1E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12ACA41735E4177149C39973 /* Pods-available_pods-Patazone.debug.xcconfig */,
+				043EC3597723B1216D884613 /* Pods-available_pods-Patazone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84EA41D426393EE20078E919 /* libz.tbd */,
+				84EA41D226393EC40078E919 /* SystemConfiguration.framework */,
+				84EA41D026393EB30078E919 /* SafariServices.framework */,
+				84EA41CE26393EA70078E919 /* AddressBook.framework */,
+				84EA41CC26393E950078E919 /* libRNGoogleSignin.a */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				AFBD678387D4E3BEA0D35A3F /* libPods-available_pods-Patazone.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7647BC0A269C09D9003AC88C /* Entitlements */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entitlements;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				84EE538E2A6586DE004F25BA /* PatazoneRelease.entitlements */,
+				F4BD7EA729BF316100EC70C0 /* DetailPros.entitlements */,
+				F4803AD629BB24250024D9DD /* Autobox.entitlements */,
+				F4803A9629BB19240024D9DD /* Tempcorner.entitlements */,
+				F4803A9529BB18D50024D9DD /* ROYORIDES.entitlements */,
+				1802C61929B5F1E7005BD8E1 /* OyeeRides.entitlements */,
+				18C423ED29AF547B0080E16B /* Emart.entitlements */,
+				184FBA2929AF14F6006C7900 /* Nounou.entitlements */,
+				184FBA2829AF14CB006C7900 /* Messiaa.entitlements */,
+				184FBA2729AF14AF006C7900 /* Stargaze.entitlements */,
+				184FBA2629AF148A006C7900 /* ViralClean.entitlements */,
+				184FBA2529AF145A006C7900 /* HattaFoodHub.entitlements */,
+				184FBA2429AF1431006C7900 /* Udkay.entitlements */,
+				184FBA2329AF1395006C7900 /* WizSonic.entitlements */,
+				184FBA2229AF135E006C7900 /* Bukam.entitlements */,
+				184FBA2129AF132B006C7900 /* Aredoo.entitlements */,
+				184FBA2029AF12DB006C7900 /* LiverpoolEats.entitlements */,
+				184FBA1F29AF12AC006C7900 /* Oaks.entitlements */,
+				184FBA1E29AF1275006C7900 /* Buzy.entitlements */,
+				184FBA1D29AF1220006C7900 /* Etaim.entitlements */,
+				184FBA1C29AF11BB006C7900 /* BoozeBrothers.entitlements */,
+				184FBA1B29AF1117006C7900 /* Zulbrand.entitlements */,
+				183B13DA29AE21C8006898F7 /* AmbosSafariExpress.entitlements */,
+				183B13D929AE21B3006898F7 /* Ekobridge.entitlements */,
+				183B13D829AE219A006898F7 /* Zozozi.entitlements */,
+				183B13D729AE2186006898F7 /* OneBasket.entitlements */,
+				183B13D629AE216E006898F7 /* Reedas.entitlements */,
+				183B13D529AE2157006898F7 /* TheGenie.entitlements */,
+				183B13D429AE2135006898F7 /* ReadyToRent.entitlements */,
+				181F4A4D29A36E0C0034B5D1 /* Ebay.entitlements */,
+				18CD3068299BA96600715723 /* MagicalBookings.entitlements */,
+				18B4E959299A7B520049F22F /* LivraiZoo.entitlements */,
+				18B9BDD6299A239800C0A947 /* WeedLomo.entitlements */,
+				18B9BDD5299A231E00C0A947 /* NGoal.entitlements */,
+				18C7E1B02994DC87003E10F6 /* ShipSmart.entitlements */,
+				18C7E1AF2994DC41003E10F6 /* Nool.entitlements */,
+				18C7E1AE2994DC1C003E10F6 /* Rally.entitlements */,
+				18B50EC82993D1E000C38C47 /* Weemoov.entitlements */,
+				186153B72990DBF700174151 /* GoKart.entitlements */,
+				18C5D0C3298D2AB6006A1BC3 /* Tkaff.entitlements */,
+				18C5D08C298D201E006A1BC3 /* HqiStore.entitlements */,
+				18C69A7C29891A7A00BED0CC /* WhatchaGotPickUp.entitlements */,
+				181968622987E58500A9B7DD /* NannyAfrica.entitlements */,
+				1816814F2987D52A00934D45 /* Bliss.entitlements */,
+				18020F22297FBF4600894466 /* Kurs.entitlements */,
+				18020F21297FA69700894466 /* MelakPharmacy.entitlements */,
+				18F0206F297E95860098482F /* Laith.entitlements */,
+				188EC719297E714300AB3745 /* AirvoltTaxi.entitlements */,
+				188EC718297E70BB00AB3745 /* DotTaxiApp.entitlements */,
+				189377FC296D2C980081D15B /* MovingWheelsDelivery.entitlements */,
+				18873444296850BF002383DE /* Shopcart.entitlements */,
+				1887340D29681EF5002383DE /* Junkerz.entitlements */,
+				186627142967094800BA8305 /* Ondgoo.entitlements */,
+				18543A97295B287100E9741E /* Dot.entitlements */,
+				8444D25227FC61A900521F32 /* AauJau.entitlements */,
+				98C03ED228648AAB005B62E0 /* AbbeRides.entitlements */,
+				84C856262707497500D6B750 /* Ace.entitlements */,
+				84D4D1D62770651B005892AA /* ADMCourier.entitlements */,
+				84DD387726CA483800F02437 /* Africanize.entitlements */,
+				8415956226B4087E00FF20F4 /* AfricanVillageMarket.entitlements */,
+				8405124727218A4F002D52AF /* AGBDeliveries.entitlements */,
+				84F321C2271985AD00130594 /* Agrionline.entitlements */,
+				84324EB527EC92C500B41CEC /* AirlinesRecruiter.entitlements */,
+				848CAD2427A9321100CC66D6 /* Allotaxi.entitlements */,
+				10F34DC82837A49F00445924 /* AmazingTaxi.entitlements */,
+				007E4A8027BA663000B6BD5C /* AmbuTap.entitlements */,
+				10386726281FBC61007B8D7E /* AmstaFood.entitlements */,
+				846E7CB426C698AF00C7A2C5 /* ArenaGrub.entitlements */,
+				10AAEBC02816C935009BABED /* Arwin.entitlements */,
+				F4F7881C2840D679007E5099 /* AtaskttRelease.entitlements */,
+				846861F826E0F19000F7063A /* Autotek.entitlements */,
+				846B5EDF2716F0FB00367125 /* BakeSale.entitlements */,
+				84F0527A27C7BB3E007F6CCB /* BauBauDebug.entitlements */,
+				8452362E26F4C18A00DE21B8 /* BaytukomDebug.entitlements */,
+				84E7C9D227E0A10E0055ECB2 /* Beachhop.entitlements */,
+				0079481527BF69E000F4ABF5 /* BeakMe.entitlements */,
+				8461AF89273E47E4003AB3BB /* Bezalio.entitlements */,
+				844385382775E2C500FBB0FA /* BharatMove.entitlements */,
+				84C8A998273D1E6E00B47FA9 /* Bilionza.entitlements */,
+				84782AA9277AED2A00476AB4 /* Bimol.entitlements */,
+				84BA4CE62796D4B1006CD402 /* BKSTaxi.entitlements */,
+				849BDBA2274663850036F905 /* BlacNetwork.entitlements */,
+				109C3E44280E786A004D7344 /* BLIP.entitlements */,
+				84B6DE3527B256DC00DBBF51 /* Bluebolt.entitlements */,
+				ECA1A1EE283F5C9200081F88 /* BlueBundles.entitlements */,
+				84F9602927B8C1BD001CA0B1 /* BoltDelivery.entitlements */,
+				844D527227C8A38D0044DB9A /* BookARyde.entitlements */,
+				840521552721A0FF002D52AF /* Bookem.entitlements */,
+				848C3795271469F900D492B5 /* BoozieDoozie.entitlements */,
+				84947B1E273A998E000E016B /* BotsEats.entitlements */,
+				84F4661426A707BC00D378D5 /* BottomsUp.entitlements */,
+				847732B827EC565600142126 /* Bua.entitlements */,
+				EC1C009C283FBAE3004291D1 /* BusTaMove.entitlements */,
+				843DF19826BAA2ED008210BD /* Bustan.entitlements */,
+				1075AC8A282924EE0071D2F4 /* ButlerDelivery.entitlements */,
+				849AE81126C5415900B6C20D /* Cabdelivr.entitlements */,
+				84C0883427B12072002522C7 /* Cabio.entitlements */,
+				84D418FD2744FE3C000AAB1C /* CabWay.entitlements */,
+				849924DC27993E9D00A955AC /* CannabisClubSF.entitlements */,
+				8413EE2D26B024FA00A2F4C1 /* Cannabus.entitlements */,
+				84FFF10326D642C600F2B059 /* CarHop.entitlements */,
+				84F71D36271EA872003B51DF /* CaribeClean.entitlements */,
+				84D1F1DE26BD761500530751 /* Carlitoo.entitlements */,
+				10AAEB872816C121009BABED /* CaronaTaxi.entitlements */,
+				84D42EFE27451905000AAB1C /* Carroai.entitlements */,
+				109C3E7E280E8F2F004D7344 /* Cartnar.entitlements */,
+				841EEC01274D096C0033B4C5 /* ChipeTaxi.entitlements */,
+				105E86B7283239C300243FA4 /* ChowHub.entitlements */,
+				848CA900278D5F1C00DD824C /* CitySuds.entitlements */,
+				848A16B627425ADE003BD140 /* Click2Deliver.entitlements */,
+				84C0695526B2A9360096845B /* ClickEat.entitlements */,
+				10F34DC72837A48F00445924 /* ClickService.entitlements */,
+				84314F5026FB59D2005E3FC1 /* Codiner.entitlements */,
+				8416EED226CD381800D9B686 /* CodinerDebug.entitlements */,
+				843F3DE9280957B2000708F7 /* CurblerLLC.entitlements */,
+				844AAA5E27D78D8200F613A9 /* Dbairro.entitlements */,
+				847AC80927CB56FF008287C6 /* Delivadrinks.entitlements */,
+				8450C7DA27DF736E00C2486A /* Delivery.entitlements */,
+				846EBE1026CE6B62004CA92B /* DestinationOps.entitlements */,
+				846EB8BE26CE557A004CA92B /* DiamondDashers.entitlements */,
+				8474369D27735AD300B48DE0 /* DimaVega.entitlements */,
+				F481BEDF285357DB002CABBF /* DingDongDelivers.entitlements */,
+				101ECCB328337A14002A80FC /* DingDongEat.entitlements */,
+				84C6B76A273BEDBA00D6AAA1 /* Dishefs.entitlements */,
+				84634A7F27D77850005F6F9E /* Dlvrd.entitlements */,
+				84B371DC26C2985A00DF67B0 /* DoctaTransportation.entitlements */,
+				84C8B345273D436900B47FA9 /* DoleyPharmacy.entitlements */,
+				842BA666272A838700A2E1A2 /* Donepacked.entitlements */,
+				8447E75326DF9A9100A23425 /* DoorStepDebug.entitlements */,
+				8400CB4227254927003BF24A /* Driveree.entitlements */,
+				8433B78E28057B8100F35EFD /* DropItOffUsa.entitlements */,
+				84324FD126C658580041E569 /* Drus.entitlements */,
+				848BD6DA278C468100FEC147 /* Easyu.entitlements */,
+				844892DA26FA186300BD865C /* eBOYORelease.entitlements */,
+				846B66502716F97200367125 /* ElCheRegio.entitlements */,
+				842465C927073C61005473D3 /* Elixir.entitlements */,
+				848C292727144F0900D492B5 /* Empire.entitlements */,
+				84399BA42757440000CBF3B6 /* EnExt.entitlements */,
+				8420FB1C280038D600B2221B /* EnsoDigitalAgency.entitlements */,
+				84A808DB26C3D54900F35132 /* EquaMD.entitlements */,
+				8449646626DD0A13001401BF /* ErrandDebug.entitlements */,
+				84C5B2EF279826FE00DE9654 /* Everywhere.entitlements */,
+				1066ADEB2817ECBE00846A58 /* EVSOnTheGo.entitlements */,
+				848C2FEA2714560700D492B5 /* ExpressDeliveryLLC.entitlements */,
+				98C00382286C7F6000478618 /* ExprexPro.entitlements */,
+				849BEA7F27467E560036F905 /* EzMobileFuel.entitlements */,
+				84991B7D279934DD00A955AC /* Fairex.entitlements */,
+				843E963C27F4246B009D8DD1 /* FarmerSouq.entitlements */,
+				848C9DAF278D585D00DD824C /* fastmikes.entitlements */,
+				847AB7E227CB50BF008287C6 /* Fawaz.entitlements */,
+				101ECD262833A459002A80FC /* FazeiTeam.entitlements */,
+				846DD40627903BDC00980345 /* FidesDelivery.entitlements */,
+				847E8F9226DCB7EF0054CD42 /* Fleety.entitlements */,
+				846DA62B278EF80600980345 /* Flit.entitlements */,
+				84BEA5CF26DCF37600390501 /* FlyingHorseDebug.entitlements */,
+				84BDE18627C3E544005A160E /* Foodies.entitlements */,
+				84ABE89926C2517600658CE6 /* FoodKart.entitlements */,
+				84C437E82758A3960033A1FC /* FoodNests.entitlements */,
+				109C3F2A280ECD93004D7344 /* FreshFarmz.entitlements */,
+				847971AA26B96E9700B8D286 /* GajaMove.entitlements */,
+				10C1E8952812940600D73DCD /* GasGiant.entitlements */,
+				84FF65C927CE26C0006774C1 /* Getfix.entitlements */,
+				84AE32E526BAD201005257F6 /* Getme.entitlements */,
+				105E86B828323A4200243FA4 /* GinDeliver.entitlements */,
+				84B36ED626C28EA000DF67B0 /* Glamsouq.entitlements */,
+				987129392941BA5D009B0506 /* Glavour.entitlements */,
+				84BDECD927C3E8D2005A160E /* GO.entitlements */,
+				842456A6270720C4005473D3 /* GoKab.entitlements */,
+				848BFF9E27675CDB00DAA1EB /* GoMeat.entitlements */,
+				84DFB59A27184D2E00EE678D /* GoodWheelz.entitlements */,
+				848550A02705E25900DC40B5 /* Goody.entitlements */,
+				84B8D2FC26F0D8FE0099E3A0 /* Gorillas.entitlements */,
+				8415988A26B41A6100FF20F4 /* GovaChow.entitlements */,
+				847ABFF227CB53BD008287C6 /* GRN.entitlements */,
+				84903B7626EB882F00E4AE5A /* Groupy.entitlements */,
+				8478E1C2270708BD0083F24E /* GrubDebug.entitlements */,
+				84C6AFF9273BE70700D6AAA1 /* Gumastas.entitlements */,
+				8478E72527070DF10083F24E /* Gusto.entitlements */,
+				846EB3FA26CE3D41004CA92B /* HairstonExpress.entitlements */,
+				8480E2BD27A7CF6200671D85 /* HalaTalabat.entitlements */,
+				8433C7012805898B00F35EFD /* HandyPickup.entitlements */,
+				84A80BC826C3E19A00F35132 /* HelloDeliver.entitlements */,
+				84A08E5F26B3F3DA00216740 /* HelpNowRightNow.entitlements */,
+				84A859D826E8919A004CA54F /* HemptiFy.entitlements */,
+				84692AF426E79D0100E28501 /* HemptyFy.entitlements */,
+				844D711E27C8ECFB0044DB9A /* HeyBuddy.entitlements */,
+				84200CA728005B1D00B2221B /* HiperAbasto.entitlements */,
+				F481BEE12853587D002CABBF /* HitchDelivery.entitlements */,
+				8445E96627FECADB00A42DAB /* Hivefair.entitlements */,
+				8490349926EB790B00E4AE5A /* HMC.entitlements */,
+				76804BF7269C15CB007926EE /* Hmoobhub.entitlements */,
+				84A810B526C3FE3300F35132 /* HoganChef.entitlements */,
+				84C4316A27589C9C0033A1FC /* Hokitch.entitlements */,
+				8478F6BE270731500083F24E /* Homeric.entitlements */,
+				848CB52C278D69AB00DD824C /* HomeTownDelivery.entitlements */,
+				846B787827170BD400367125 /* Hosta.entitlements */,
+				84800D3B26CE2EBE0014F500 /* Housekeeper4Hire.entitlements */,
+				84961BD527DA18D900C02013 /* Icare.entitlements */,
+				8461F2EE26E253D600E94D55 /* IGoLux.entitlements */,
+				846DB5BC2790246900980345 /* IHELP.entitlements */,
+				841EFDE8274E1E600033B4C5 /* INeed.entitlements */,
+				84ECE2E926A7FD83009A0F8C /* InstaMobile.entitlements */,
+				8461C233273E91B5003AB3BB /* InstaShop.entitlements */,
+				84B6D04027B249DC00DBBF51 /* iPicknDrop.entitlements */,
+				84B8C22F27ABF9C200C8EF89 /* JadorDrive.entitlements */,
+				104E1B1A283B8A0C00F6061D /* JazzyBug.entitlements */,
+				84DD32E526CA2E7800F02437 /* Jet.entitlements */,
+				1024EF5A28364AE7003B7F0B /* Jiffex.entitlements */,
+				841C19C627AD299A004AC6FE /* Kampick.entitlements */,
+				10B6D089283E0068009E2ACD /* Kartandkarry.entitlements */,
+				1066ADEC2817F07000846A58 /* Kazakazi.entitlements */,
+				84D42113274504E2000AAB1C /* Kel360.entitlements */,
+				10E5BE93283CFEB4006F424C /* KeystoneDelivery.entitlements */,
+				84ABE59B26C2441300658CE6 /* Klickmat.entitlements */,
+				844ABA4D27D79A2600F613A9 /* KnockKnock.entitlements */,
+				841CF8B127ACF8EA004AC6FE /* Kongafood.entitlements */,
+				84437DAB2775CE1700FBB0FA /* Kudhyo.entitlements */,
+				84D4DCD127706790005892AA /* KurbsideKings.entitlements */,
+				84D483FD26C1539200EE9EB5 /* LastMinuteDress.entitlements */,
+				841C10E227AD144E004AC6FE /* Launch.entitlements */,
+				841EF671274E1BC70033B4C5 /* LaundryOrders.entitlements */,
+				843391E627C3A3FB00ADB24E /* LocalDropoff.entitlements */,
+				84FFFCE926D669C200F2B059 /* LoopWhole.entitlements */,
+				844D824027C917BF0044DB9A /* Lopht.entitlements */,
+				F4F788532840FED9007E5099 /* Lunchbox SpecialsRelease.entitlements */,
+				9897C0802940A6B00049972B /* LvlUp.entitlements */,
+				105E86BA28323A9A00243FA4 /* Maiz.entitlements */,
+				84FA236B27C4E84100E4D8FB /* MandaExpress.entitlements */,
+				8444AE57274F65A100F75A0A /* Marasym.entitlements */,
+				1008CD522817D921007C5363 /* MarjMarketplace.entitlements */,
+				844F2AB326CBC8CE00A7708F /* Markita.entitlements */,
+				10909D1A2819085C002D75B9 /* MarkSoublet.entitlements */,
+				846E270026C3D438007BB60D /* MartiniOnWheels.entitlements */,
+				84A2FB7326B18695008F557E /* Masa.entitlements */,
+				84268BF9272985DE001EFE96 /* MaxisDelivery.entitlements */,
+				8473132427B673E9006565B8 /* MeatEasy.entitlements */,
+				101ECD252833A44C002A80FC /* Medicab.entitlements */,
+				8420E80327FFFFDB00B2221B /* Meltivers.entitlements */,
+				8447E25926DF636B00A23425 /* MenusDebug.entitlements */,
+				F481BEE02853584C002CABBF /* Meow.entitlements */,
+				8459C29F277ADEBB00D36404 /* MML.entitlements */,
+				84691DA526E771B700E28501 /* MOBI.entitlements */,
+				84427F2A2743E3E4007CD3C8 /* MobosErrandsService.entitlements */,
+				849472B2273A8427000E016B /* MokabFix.entitlements */,
+				848BE9C2278C531000FEC147 /* Mozmarcas.entitlements */,
+				848015E027C9E9EB004130DD /* MrHealth.entitlements */,
+				843499BD26CCEF1900DB8C18 /* MsTechy.entitlements */,
+				1013AD6B28112EE300E0582E /* Muvpod.entitlements */,
+				104E1B1B283B8A1100F6061D /* Myfarma.entitlements */,
+				848BFC49278C66C400FEC147 /* Myfiji.entitlements */,
+				F43B38F8286F191C007547B9 /* MyfijiRelease.entitlements */,
+				00DC50E227B7612F004AE735 /* MylaGlobal.entitlements */,
+				847AD71027CB71FE008287C6 /* MyRide.entitlements */,
+				841E06BC274E3DD50033B4C5 /* NaDelivery.entitlements */,
+				843240F227EC7DC500B41CEC /* NewYorkMiniMart.entitlements */,
+				84325D9C27EC9D0E00B41CEC /* NineOneTwo.entitlements */,
+				8400B89327253F65003BF24A /* Noki.entitlements */,
+				84E7B02427E07B890055ECB2 /* Ola.entitlements */,
+				0020370727BF956100D99F30 /* Onscart.entitlements */,
+				00301AEF27BE10340088151F /* ONTHEGO.entitlements */,
+				84CDD92726BC0F7A001FE3EE /* Orbit.entitlements */,
+				8472A61C27254C7C00CD25DC /* OrderChekout.entitlements */,
+				105E86B928323A5D00243FA4 /* OrderFirst.entitlements */,
+				8400D4F627254CD6003BF24A /* Ored.entitlements */,
+				84BA58892796D804006CD402 /* OXO.entitlements */,
+				8425921527A7FFF800840D16 /* PalmettoPlus.entitlements */,
+				1066AE272817F93D00846A58 /* Papiruki.entitlements */,
+				849D808726DE3F1200347B00 /* PartnerProjectDebug.entitlements */,
+				109C3EF0280EB606004D7344 /* PAS41.entitlements */,
+				1075AC8B282925260071D2F4 /* PatrolNow.entitlements */,
+				84CB170A274CC95A00E5F07B /* PaySic.entitlements */,
+				1032F2DE28251F6900D48388 /* PeerDeliveries.entitlements */,
+				844D658E27C8E9D00044DB9A /* PetsChoice.entitlements */,
+				8405A60426FE013500B6E1C6 /* PickMeUp.entitlements */,
+				84817BE5273952DA00DA9C3D /* PinkJet.entitlements */,
+				847EE4F5278410ED0003197D /* PinkyDeli.entitlements */,
+				846DCA3D279033E000980345 /* Privatepremiumpickups.entitlements */,
+				8478F078270724ED0083F24E /* Punnet.entitlements */,
+				842F3A0B27E34F9F00FEDBCA /* Qseek.entitlements */,
+				10E5BE92283CFEA7006F424C /* QuickLube.entitlements */,
+				8486F769271D3BCB006FEE41 /* QuickQuick.entitlements */,
+				848F583F28044D5000006270 /* Redglee.entitlements */,
+				84F2000027EDA9A800C51613 /* Releezer.entitlements */,
+				84B0703326C25B94006C0FC7 /* Rerak.entitlements */,
+				8416E99526CD27C700D9B686 /* Ridemate.entitlements */,
+				849C3A0627EB4C390026508A /* Rideshare.entitlements */,
+				84FE79822722E91B001F8A2F /* RIDETCI.entitlements */,
+				846D9A2B278EEEEA00980345 /* Ritenow.entitlements */,
+				842EEE7726DCD3EF00F121B5 /* RoyoOrder.entitlements */,
+				848D7C042748F95D00FE87AC /* RunaRound.entitlements */,
+				8400C1A027254433003BF24A /* RXNow.entitlements */,
+				0038C08F27BA934F00B7CF17 /* Sabroson.entitlements */,
+				98C91B1C286985A600D633D8 /* Sadia.entitlements */,
+				848211142773224900A5EF06 /* SafeWalks.entitlements */,
+				846ECF4F2756289E00983AA5 /* Samakee Mart.entitlements */,
+				84F32A972719897C00130594 /* Sambiga.entitlements */,
+				847D859227DF2E0B007CEE7D /* Scootz.entitlements */,
+				847170452725431D0049C1D5 /* SeaChangeVending.entitlements */,
+				84564FA22756423700F6CC22 /* SeaEats.entitlements */,
+				84349DED26CD0D1F00DB8C18 /* SenshiveRelease.entitlements */,
+				8480315527CA14C7004130DD /* Seratho.entitlements */,
+				8485500F26C4F41E00BFFD11 /* Servze.entitlements */,
+				8405A60526FE014100B6E1C6 /* Share.entitlements */,
+				841366B526BBEECF00008438 /* Shariff.entitlements */,
+				848FA23326E8BAF2008116B5 /* Sharu.entitlements */,
+				8479EEB7273FEA710090FB2A /* ShooraFresh.entitlements */,
+				848B085227675FF200DAA1EB /* ShopCentral.entitlements */,
+				84C5A5DD2798118700DE9654 /* Sijang.entitlements */,
+				8444B546274F6A6600F75A0A /* Silvestre.entitlements */,
+				84348FD726CCD33F00DB8C18 /* SirVU.entitlements */,
+				843CD47D276B1D9F00C05303 /* Skidoo.entitlements */,
+				841C93B42775B06000ED1DF3 /* Skoop.entitlements */,
+				84519E6A27D9D98400317E27 /* Slider.entitlements */,
+				848FA8FF26E9EF41008116B5 /* SMCompany.entitlements */,
+				10C78FD028113970007E21AE /* Smile.entitlements */,
+				84CEECF0275792AE004F89CE /* Snabbhem.entitlements */,
+				842B1D652779D40E003FA3C5 /* Sofia.entitlements */,
+				84DFA21A2718064500EE678D /* Somame.entitlements */,
+				F46EF7932844F9EA002AA14A /* SorDelivery.entitlements */,
+				84C4D59827E1F441009FEC91 /* SourcesServices.entitlements */,
+				84D4889626C166A200EE9EB5 /* Specialhalal.entitlements */,
+				8468FFA326A830740076EBC5 /* Spidbi.entitlements */,
+				847E231D27DF11B3009D4A5F /* Spliffnation.entitlements */,
+				847CFDA727633AC500A96CE8 /* Sponge.entitlements */,
+				849BD7A727465F420036F905 /* Ssuum.entitlements */,
+				847F717D2720450C00C7A32F /* Stonses.entitlements */,
+				8424603A2707283D005473D3 /* Suel.entitlements */,
+				84685A2B26E0D23400F7063A /* SunshineRideshare.entitlements */,
+				8461ECBC26E242EA00E94D55 /* Survuhs.entitlements */,
+				1032F317282526F600D48388 /* Swan.entitlements */,
+				10C8B60A282A9EB6003DBC1F /* SwatiRX.entitlements */,
+				00BA22CB27BA9CBB007541D0 /* SwiffyLLC.entitlements */,
+				848D83E42749022E00FE87AC /* SwiftandValu.entitlements */,
+				84D4245E27450F7E000AAB1C /* Tajammul.entitlements */,
+				841FDEDC27049B430007E0F2 /* Taquick.entitlements */,
+				84D47E6026C1381B00EE9EB5 /* Tasmeem.entitlements */,
+				84D4823526C14ABC00EE9EB5 /* TheHouse.entitlements */,
+				849BE35A2746711C0036F905 /* ThreadAgain.entitlements */,
+				842BB943272ABC2600A2E1A2 /* ThubaeRides.entitlements */,
+				849DD0C827DF4C8E0036210F /* TimHomeServices.entitlements */,
+				84C4FEC52805A405007ED59A /* TJJHub.entitlements */,
+				98D86E112865E9F700C42B5B /* TMGShops.entitlements */,
+				84B11D0926E620F900497B86 /* Toda.entitlements */,
+				1032F2A62824F70F00D48388 /* Toor.entitlements */,
+				848FB06C26EB3626008116B5 /* Totum4U.entitlements */,
+				846E78A626C68DB100C7A2C5 /* TowTrek.entitlements */,
+				76804BF6269C157F007926EE /* Tranzit.entitlements */,
+				84DFAB9627183B4100EE678D /* Tranznet.entitlements */,
+				849AE2CD26C529FD00B6C20D /* Travo.entitlements */,
+				84D3FEC827F1A4E2006ACDC8 /* Trip.entitlements */,
+				848A1D6A27425EC6003BD140 /* TruckTireNow.entitlements */,
+				84CB0E6F274CC16D00E5F07B /* Trucxi.entitlements */,
+				84E7D34927E0C6420055ECB2 /* Tumbak.entitlements */,
+				84051A0527218EB2002D52AF /* TwoFinder.entitlements */,
+				841C025B27ACFE6E004AC6FE /* UBERCANN.entitlements */,
+				84D8688327C8FEF7001725D6 /* Ubi.entitlements */,
+				84D8688227C8FD98001725D6 /* UbiRelease.entitlements */,
+				8434952E26CCE41100DB8C18 /* Ublue.entitlements */,
+				846EA97926A9409C000073CE /* UFood.entitlements */,
+				846DC15227902ABA00980345 /* Ullaz.entitlements */,
+				84322FFD27EC726800B41CEC /* Upstreet.entitlements */,
+				109C3EB7280E97DC004D7344 /* Uven.entitlements */,
+				10E5BE91283CFE76006F424C /* Valley.entitlements */,
+				841FD4BB270453240007E0F2 /* Vecto.entitlements */,
+				84FFF79F26D656E900F2B059 /* Vici.entitlements */,
+				849DE22527DF644F0036210F /* Viversbox.entitlements */,
+				8478FDDD27073B9D0083F24E /* Voltaic.entitlements */,
+				84A806AD26C3A4EC00F35132 /* WashValley.entitlements */,
+				84FE279E26EF54C300849F64 /* WeEat.entitlements */,
+				8461E55426E22B7C00E94D55 /* WeGotit.entitlements */,
+				84E7BDFC27E096890055ECB2 /* Wer.entitlements */,
+				1024EF5928364ADA003B7F0B /* WeTogether.entitlements */,
+				8482877D27CA3FE200925958 /* Xborne.entitlements */,
+				846B6F902717071000367125 /* Yaawi.entitlements */,
+				846E6F7226C6737E00C7A2C5 /* Yahu.entitlements */,
+				8480240F27C9FDDB004130DD /* Yalary.entitlements */,
+				84425D4327438919007CD3C8 /* Yeboy.entitlements */,
+				84D8C52F269F0DD40020B09A /* Yogo Food.entitlements */,
+				84FF002C26D676C200F2B059 /* YogoLift.entitlements */,
+				84B36A0826C2798D00DF67B0 /* Yoho.entitlements */,
+				844D7A6527C913BB0044DB9A /* YoloSonic.entitlements */,
+				8461B9EA273E7BB9003AB3BB /* YouChillax.entitlements */,
+				8469242626E78A5100E28501 /* YourLaundryApp.entitlements */,
+				8493F7C426CB8BB0006AD6AD /* Yummiidash.entitlements */,
+				84F5BA6527107E4000470705 /* Zest.entitlements */,
+				848C3F5327146D7D00D492B5 /* ZestyClickz.entitlements */,
+				84FE70972722E263001F8A2F /* Zip.entitlements */,
+				846E73E826C67EB300C7A2C5 /* ZuzuClean.entitlements */,
+				84F4679526A7F27400D378D5 /* BottomsUp-Bridging-Header.h */,
+				84F4679226A7F27400D378D5 /* Capcorp-Bridging-Header.h */,
+				84F4679126A7F27400D378D5 /* Hmoobhub-Bridging-Header.h */,
+				84F4679326A7F27400D378D5 /* Masa-Bridging-Header.h */,
+				84F4678F26A7F27400D378D5 /* RoyoOrder-Bridging-Header.h */,
+				84F4678E26A7F27400D378D5 /* Runrun-Bridging-Header.h */,
+				84F4679026A7F27400D378D5 /* Tranzit-Bridging-Header.h */,
+				84F4679426A7F27400D378D5 /* Yogo Food-Bridging-Header.h */,
+				84F4679626A7F27500D378D5 /* Royo.swift */,
+				84D1CDDD2703529C00C05E36 /* notification.wav */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				293CCC036299F75712B8E1E3 /* Pods */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				841D9D5B26A6999600324021 /* Recovered References */,
+				D65CC1AD79C546A3A311AA2C /* Resources */,
+				104E1AA0283B6CB700F6061D /* Resources-iPad */,
+				13B07FAE1A68108700A75B9A /* Runrun */,
+				00E356EF1AD99517003FC87E /* RunrunTests */,
+				0020370627BF956100D99F30 /* Onscart.entitlements */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846CB4502A657ED8008445DB /* Patazone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841D9D5B26A6999600324021 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		844804B42653CF490050AA67 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				846CB4522A657F11008445DB /* Patazone */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		844FDD0F267397EF00C16835 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8496BC0726F1B862001AAB4C /* Metropolis-Bold.otf */,
+				8496BC0526F1B860001AAB4C /* Metropolis-Regular.otf */,
+				8496BC0626F1B861001AAB4C /* Metropolis-SemiBold.otf */,
+				8455CA3626DFBC2200C27F72 /* Eina02-Bold.ttf */,
+				8455CA3826DFBC2200C27F72 /* Eina02-Regular.ttf */,
+				8455CA3726DFBC2200C27F72 /* Eina02-SemiBold.ttf */,
+				846DA78E2681E47100CC5BA2 /* Futura Hv BT.ttf */,
+				846DA7932681E47100CC5BA2 /* Futura-Book.ttf */,
+				846DA7902681E47100CC5BA2 /* Futura-Medium.ttf */,
+				846DA7922681E47100CC5BA2 /* Futura-Normal.ttf */,
+				846DA78B2681E47000CC5BA2 /* FuturaBT-Heavy.ttf */,
+				846DA78C2681E47000CC5BA2 /* SFProDisplay-Regular.ttf */,
+				846DA7912681E47100CC5BA2 /* SFProText-Bold.ttf */,
+				846DA7942681E47100CC5BA2 /* SFProText-Medium.ttf */,
+				846DA78D2681E47000CC5BA2 /* SFProText-Regular.ttf */,
+				846DA78F2681E47100CC5BA2 /* SFProText-SemiBold.ttf */,
+				844FDD1C2673989300C16835 /* CircularStd-Bold.ttf */,
+				844FDD1E2673989300C16835 /* CircularStd-Book.otf */,
+				844FDD1D2673989300C16835 /* CircularStd-Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		846CB4522A657F11008445DB /* Patazone */ = {
+			isa = PBXGroup;
+			children = (
+				846CB4592A658271008445DB /* GoogleService-Info.plist */,
+				846CB4532A657F36008445DB /* Patazone(Development).xcconfig */,
+				846CB4552A657F51008445DB /* Patazone(Production).xcconfig */,
+				846CB4572A657F65008445DB /* Images.xcassets */,
+			);
+			path = Patazone;
+			sourceTree = "<group>";
+		};
+		D65CC1AD79C546A3A311AA2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846CB4292A657ED8008445DB /* Patazone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846CB44D2A657ED8008445DB /* Build configuration list for PBXNativeTarget "Patazone" */;
+			buildPhases = (
+				C323048CA330178EC0CA0C52 /* [CP] Check Pods Manifest.lock */,
+				846CB42A2A657ED8008445DB /* Start Packager */,
+				846CB42B2A657ED8008445DB /* Sources */,
+				846CB42F2A657ED8008445DB /* Frameworks */,
+				846CB4302A657ED8008445DB /* Resources */,
+				846CB44B2A657ED8008445DB /* Bundle React Native code and images */,
+				846CB44C2A657ED8008445DB /* ShellScript */,
+				BCF576AE93372E7BC32594F3 /* [CP] Embed Pods Frameworks */,
+				FCF9AA01ABF1E2EA8764A73D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Patazone;
+			productName = Runrun;
+			productReference = 846CB4502A657ED8008445DB /* Patazone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Runrun" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846CB4292A657ED8008445DB /* Patazone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846CB4302A657ED8008445DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846CB4312A657ED8008445DB /* Eina02-Regular.ttf in Resources */,
+				846CB4322A657ED8008445DB /* SFProDisplay-Regular.ttf in Resources */,
+				846CB4332A657ED8008445DB /* Futura-Medium.ttf in Resources */,
+				846CB4352A657ED8008445DB /* LaunchScreen.storyboard in Resources */,
+				846CB4362A657ED8008445DB /* CircularStd-Book.otf in Resources */,
+				846CB4382A657ED8008445DB /* Metropolis-Bold.otf in Resources */,
+				846CB4392A657ED8008445DB /* Futura Hv BT.ttf in Resources */,
+				846CB43A2A657ED8008445DB /* SFProText-Regular.ttf in Resources */,
+				846CB4562A657F51008445DB /* Patazone(Production).xcconfig in Resources */,
+				846CB43B2A657ED8008445DB /* SFProText-SemiBold.ttf in Resources */,
+				846CB43C2A657ED8008445DB /* SFProText-Medium.ttf in Resources */,
+				846CB43E2A657ED8008445DB /* notification.wav in Resources */,
+				846CB43F2A657ED8008445DB /* Plists in Resources */,
+				846CB4402A657ED8008445DB /* Futura-Normal.ttf in Resources */,
+				846CB45A2A658273008445DB /* GoogleService-Info.plist in Resources */,
+				846CB4412A657ED8008445DB /* Eina02-Bold.ttf in Resources */,
+				846CB4422A657ED8008445DB /* Futura-Book.ttf in Resources */,
+				846CB4432A657ED8008445DB /* CircularStd-Medium.otf in Resources */,
+				846CB4452A657ED8008445DB /* Metropolis-SemiBold.otf in Resources */,
+				846CB4462A657ED8008445DB /* FuturaBT-Heavy.ttf in Resources */,
+				846CB4472A657ED8008445DB /* CircularStd-Bold.ttf in Resources */,
+				846CB4482A657ED8008445DB /* Metropolis-Regular.otf in Resources */,
+				846CB4492A657ED8008445DB /* SFProText-Bold.ttf in Resources */,
+				846CB4582A657F66008445DB /* Images.xcassets in Resources */,
+				846CB44A2A657ED8008445DB /* Eina02-SemiBold.ttf in Resources */,
+				846CB4542A657F36008445DB /* Patazone(Development).xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		846CB42A2A657ED8008445DB /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		846CB44B2A657ED8008445DB /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		846CB44C2A657ED8008445DB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-available_pods-InstaShop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-frameworks.sh\"\n";
+		};
+		BCF576AE93372E7BC32594F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C323048CA330178EC0CA0C52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-available_pods-Patazone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCF9AA01ABF1E2EA8764A73D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846CB42B2A657ED8008445DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846CB42C2A657ED8008445DB /* AppDelegate.m in Sources */,
+				846CB42D2A657ED8008445DB /* Royo.swift in Sources */,
+				846CB42E2A657ED8008445DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Runrun/Plists/$(PROJECT_PLIST).plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Runrun/Plists/$(PROJECT_PLIST).plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846CB44E2A657ED8008445DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 846CB4532A657F36008445DB /* Patazone(Development).xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "$(PROJECT_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = 6FXUMT5X23;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				INFOPLIST_FILE = "Runrun/Plists/$(PROJECT_PLIST).plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "$(PROJECT_APP_VERSION)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PROJECT_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROJECT_DEEPLINK = "${PROJECT_DEEPLINK}";
+				PROJECT_ENTITLEMENT = "";
+				PROJECT_PLIST = "$(PROJECT_PLIST)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RoyoOrder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		846CB44F2A657ED8008445DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 846CB4552A657F51008445DB /* Patazone(Production).xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PatazoneRelease.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = "$(PROJECT_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = 6FXUMT5X23;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6FXUMT5X23;
+				EXCLUDED_ARCHS = "";
+				INFOPLIST_FILE = "Runrun/Plists/$(PROJECT_PLIST).plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "$(PROJECT_APP_VERSION)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PROJECT_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROJECT_DEEPLINK = "${PROJECT_DEEPLINK}";
+				PROJECT_ENTITLEMENT = "";
+				PROJECT_PLIST = "$(PROJECT_PLIST)";
+				PROVISIONING_PROFILE_SPECIFIER = "Zulbrand Order";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Patazone Order";
+				SWIFT_OBJC_BRIDGING_HEADER = "RoyoOrder-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Runrun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		846CB44D2A657ED8008445DB /* Build configuration list for PBXNativeTarget "Patazone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846CB44E2A657ED8008445DB /* Debug */,
+				846CB44F2A657ED8008445DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

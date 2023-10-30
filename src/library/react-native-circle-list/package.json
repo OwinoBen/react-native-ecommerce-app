@@ -1,0 +1,80 @@
+{
+  "_from": "react-native-circle-list",
+  "_id": "react-native-circle-list@0.1.33",
+  "_inBundle": false,
+  "_integrity": "sha512-4jTJXkrcMxlEIYJkyCISiKr1uW517ycAjKoenz/+2S5reGceu1EGIR9zRnZZ3o6KRMPqq91esOeXSg+TWbGqlw==",
+  "_location": "/react-native-circle-list",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-circle-list",
+    "name": "react-native-circle-list",
+    "escapedName": "react-native-circle-list",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-circle-list/-/react-native-circle-list-0.1.33.tgz",
+  "_shasum": "23a51736cf31fce8b0a07f4df157d556b13c3517",
+  "_spec": "react-native-circle-list",
+  "_where": "/Users/admin/Desktop/ReactNativeProjects/Awesomeproject",
+  "author": {
+    "name": "Matt Jinkens"
+  },
+  "bugs": {
+    "url": "https://github.com/mjinkens1/react-native-circle-list/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A Javascript implementation of a circular list, for React Native",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.5.0",
+    "eslint": "^5.15.2",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-jest": "^22.4.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.5.0",
+    "react": "16.13.1",
+    "react-native": "0.62.2",
+    "react-test-renderer": "^16.8.4"
+  },
+  "homepage": "https://github.com/mjinkens1/react-native-circle-list#readme",
+  "jest": {
+    "preset": "react-native",
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+    }
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "list",
+    "circle",
+    "circular",
+    "javascript"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-circle-list",
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "16.13.1",
+    "react-native": "0.62.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjinkens1/react-native-circle-list.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "version": "0.1.33"
+}

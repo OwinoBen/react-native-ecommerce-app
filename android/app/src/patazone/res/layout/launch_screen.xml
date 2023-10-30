@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    android:orientation="vertical"
+    >
+
+    <!-- <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="57dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/logo_splash"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="51dp"
+        android:text="Report Faults · Pay Municipal Accounts
+Receive Latest News  Public Notifications"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+         android:gravity="center"
+        android:textAlignment="center"
+
+        /> -->
+
+
+
+
+</LinearLayout>

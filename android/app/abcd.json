@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "1073948422654",
+    "project_id": "royo-order-version2",
+    "storage_bucket": "royo-order-version2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073948422654:android:b575b2fe8b405d2fc410af",
+        "android_client_info": {
+          "package_name": "com.codebrew.royoordersreactnative"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073948422654-irdg5coguj36tp460h8qlh3b9bbm2dh4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codebrew.royoordersreactnative",
+            "certificate_hash": "6e35fcb20bda370ed0025e8c1df6109a03d09b6e"
+          }
+        },
+        {
+          "client_id": "1073948422654-qkpm0a0l9l79p5grmg8mm6c6sqdrahip.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codebrew.royoordersreactnative",
+            "certificate_hash": "a88b766ebe08c535516406fab3741781973c03ad"
+          }
+        },
+        {
+          "client_id": "1073948422654-besh07o3vs4qkjr6r0cs74rqa42lrqb3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy2IpueD5vKX_VpGaH8gj7f2NqA58h2dg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073948422654-besh07o3vs4qkjr6r0cs74rqa42lrqb3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1073948422654-evug2209p0rlpjno8t4f5ddfq4uavh4f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.codebrew.royoordersreactnative"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

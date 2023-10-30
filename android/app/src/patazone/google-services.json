@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "725226528498",
+    "project_id": "patazone-660c5",
+    "storage_bucket": "patazone-660c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725226528498:android:ee303092da57b76645fa6b",
+        "android_client_info": {
+          "package_name": "com.patazone.order"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725226528498-fkiamko6gucgk3vinugj9j1on01clfur.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.patazone.order",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "725226528498-lgdv32nkq47r65p6sa69c3542o09duqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.patazone.order",
+            "certificate_hash": "6e35fcb20bda370ed0025e8c1df6109a03d09b6e"
+          }
+        },
+        {
+          "client_id": "725226528498-v8nvleua9o0ll16svlnri2kqnrde4lrm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.patazone.order",
+            "certificate_hash": "a88b766ebe08c535516406fab3741781973c03ad"
+          }
+        },
+        {
+          "client_id": "725226528498-c1dap3rt2s2i6bv3gr155k956bqpe0fa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGZzIXJNUPkJOBfEk4V0JVRwdGgX29wE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725226528498-c1dap3rt2s2i6bv3gr155k956bqpe0fa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "725226528498-mmbqc93asmcm04dbinqe9ngo5gdog46d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.patazone.order"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

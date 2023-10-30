@@ -1,0 +1,12 @@
+#include "Pods/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone.release.xcconfig"
+PROJECT_APPLE_ID = 6448288945
+PROJECT_BUNDLE_ID = com.patazone.order
+PROJECT_APP_VERSION = 1.0
+PROJECT_BUILD_NUMBER = 1
+PROJECT_APP_NAME = Patazone
+PROJECT_GOOGLE_CLIENT_ID =611367551119-7kq2kkdojp2qbvlioojsp8b45eb8n25u.apps.googleusercontent.com
+PROJECT_GOOGLE_REVERSE_CLIENT_ID =com.googleusercontent.apps.611367551119-7kq2kkdojp2qbvlioojsp8b45eb8n25u
+PROJECT_FACEBOOK_ID = 194496546538542
+PROJECT_TWITTER_ID = twitterkit-R66DHARfuoYAPowApUxNxwbPi
+PROJECT_PLIST =PatazoneInfo
+PROJECT_GOOGLE_PLACE_KEY = AIzaSyB85kLYYOmuAhBUPd7odVmL6gnQsSGWU-4

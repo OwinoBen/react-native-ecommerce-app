@@ -1,0 +1,88 @@
+diff --git a/node_modules/react-native-tabs-section-list/lib/SectionList.js b/node_modules/react-native-tabs-section-list/lib/SectionList.js
+index 75e355f..9077f0a 100644
+--- a/node_modules/react-native-tabs-section-list/lib/SectionList.js
++++ b/node_modules/react-native-tabs-section-list/lib/SectionList.js
+@@ -13,7 +13,7 @@ var __extends = (this && this.__extends) || (function () {
+     };
+ })();
+ var __assign = (this && this.__assign) || function () {
+-    __assign = Object.assign || function(t) {
++    __assign = Object.assign || function (t) {
+         for (var s, i = 1, n = arguments.length; i < n; i++) {
+             s = arguments[i];
+             for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+@@ -43,33 +43,36 @@ var SectionList = /** @class */ (function (_super) {
+         var _a = this.props, sections = _a.sections, renderTab = _a.renderTab, tabBarStyle = _a.tabBarStyle, scrollToLocationOffset = _a.scrollToLocationOffset;
+         var prepareSections = sections.map(function (item, index) { return (__assign({}, item, { index: index })); });
+         return (<react_native_1.View style={{ flex: 1 }}>
+-        <TabBar_1.default sections={prepareSections} renderTab={renderTab} tabBarStyle={tabBarStyle} currentIndex={this.state.currentIndex} onPress={function (index) {
+-            _this.setState({ currentIndex: index });
+-            _this.blockUpdateIndex = true;
+-            var sectionList = _this.sectionList.current;
+-            if (sectionList && sectionList.scrollToLocation) {
+-                sectionList.scrollToLocation({
+-                    animated: true,
+-                    itemIndex: 0,
+-                    viewOffset: scrollToLocationOffset || 0,
+-                    sectionIndex: index
+-                });
+-            }
+-        }}/>
++            <TabBar_1.default sections={prepareSections} renderTab={renderTab} tabBarStyle={tabBarStyle} currentIndex={this.state.currentIndex}
++                onPress={() => { }}
++            // onPress={function (index) {
++            //     _this.setState({ currentIndex: index });
++            //     _this.blockUpdateIndex = true;
++            //     var sectionList = _this.sectionList.current;
++            //     if (sectionList && sectionList.scrollToLocation) {
++            //         sectionList.scrollToLocation({
++            //             animated: true,
++            //             itemIndex: 0,
++            //             viewOffset: scrollToLocationOffset || 0,
++            //             sectionIndex: index
++            //         });
++            //     }
++            // }}
++            />
+ 
+-        <react_native_1.SectionList {...this.props} sections={prepareSections} onViewableItemsChanged={function (_a) {
+-            var viewableItems = _a.viewableItems;
+-            if (!_this.blockUpdateIndex && viewableItems[0]) {
+-                var currentIndex = viewableItems[0].section.index;
+-                if (_this.state.currentIndex !== currentIndex) {
+-                    _this.setState({ currentIndex: currentIndex });
++            <react_native_1.SectionList {...this.props} sections={prepareSections} onViewableItemsChanged={function (_a) {
++                var viewableItems = _a.viewableItems;
++                if (!_this.blockUpdateIndex && viewableItems[0]) {
++                    var currentIndex = viewableItems[0].section.index;
++                    if (_this.state.currentIndex !== currentIndex) {
++                        _this.setState({ currentIndex: currentIndex });
++                    }
+                 }
+-            }
+-        }} viewabilityConfig={{
+-            minimumViewTime: 10,
+-            itemVisiblePercentThreshold: 10
+-        }} ref={this.sectionList} onMomentumScrollEnd={function () { return (_this.blockUpdateIndex = false); }}/>
+-      </react_native_1.View>);
++            }} viewabilityConfig={{
++                minimumViewTime: 20,
++                itemVisiblePercentThreshold: 20
++            }} ref={this.sectionList} onMomentumScrollEnd={function () { return (_this.blockUpdateIndex = false); }} />
++        </react_native_1.View>);
+     };
+     return SectionList;
+ }(React.PureComponent));
+diff --git a/node_modules/react-native-tabs-section-list/lib/TabBar.js b/node_modules/react-native-tabs-section-list/lib/TabBar.js
+index 4494e35..7117d4d 100644
+--- a/node_modules/react-native-tabs-section-list/lib/TabBar.js
++++ b/node_modules/react-native-tabs-section-list/lib/TabBar.js
+@@ -69,7 +69,7 @@ var TabBar = /** @class */ (function (_super) {
+         _this.renderTab = function (section, key) {
+             var _a = _this.props, renderTab = _a.renderTab, onPress = _a.onPress, currentIndex = _a.currentIndex;
+             var isActive = currentIndex === key;
+-            return (<react_native_1.TouchableOpacity onPress={function () { return onPress(key); }} key={key} onLayout={_this.onTabLayout(key)}>
++            return (<react_native_1.TouchableOpacity disabled onPress={function () { return onPress(key); }} key={key} onLayout={_this.onTabLayout(key)}>
+         {renderTab(__assign({ isActive: isActive }, section))}
+       </react_native_1.TouchableOpacity>);
+         };

@@ -1,0 +1,20 @@
+diff --git a/node_modules/@brooons/react-native-bluetooth-escpos-printer/index.js b/node_modules/@brooons/react-native-bluetooth-escpos-printer/index.js
+index 0980f53..10e0be9 100644
+--- a/node_modules/@brooons/react-native-bluetooth-escpos-printer/index.js
++++ b/node_modules/@brooons/react-native-bluetooth-escpos-printer/index.js
+@@ -1,7 +1,8 @@
+ 
+-import { NativeModules } from 'react-native';
++import { NativeModules, Platform } from 'react-native';
+ 
+-const { BluetoothManager, BluetoothEscposPrinter, BluetoothTscPrinter } = NativeModules;
++if (Platform.OS === 'android') {
++    const { BluetoothManager, BluetoothEscposPrinter, BluetoothTscPrinter } = NativeModules;
+ 
+ BluetoothTscPrinter.DIRECTION = {
+     FORWARD: 0,
+@@ -152,3 +153,4 @@ BluetoothEscposPrinter.ALIGN = {
+ };
+ 
+ module.exports = { BluetoothManager, BluetoothEscposPrinter, BluetoothTscPrinter };
++}
